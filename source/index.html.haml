@@ -1,0 +1,64 @@
+!!! 5
+%html
+  %head
+
+    %meta{'charset' => 'utf-8'}
+    %meta{'http-equiv' => 'X-UA-Compatible', 'content' => 'IE=edge,chrome=1'}
+
+    %title Internet Made in BCN
+    %meta{'description' => 'Directori de startups de base tecnològica desenvolupades des de Barcelona i per al món.'}
+
+    %meta{'name' => 'viewport', 'content' => 'width=device-width'}
+
+    =stylesheet_link_tag 'layout'
+    =javascript_include_tag 'js/modernizr-2.6.1.min.js'
+
+    =javascript_include_tag '//use.typekit.net/hta7jps.js'
+    %script try{Typekit.load();}catch(e){}
+
+  %body
+    .wrapper
+      %header
+        =link_to 'Internet Made in BCN', 'http://www.internetmadeinbcn.com', 'class' => 'logo'
+        %h1 Directori de startups de base tecnològica desenvolupades des de Barcelona i per al món.
+        %p Barcelona ha esdevingut un hub per a l'emprenedoria. I aquest llistat no pretén més que ser un testimoni d'aquesta realitat.
+
+      %section.join
+        %a.btn.btn--join.js-btn-join{:href => '#'} + Inclou la teva
+
+        .apply
+          .apply-rules
+            %article
+              %h3 1. Quines condicions tenen aquestes webs aquí llistades?
+              %p Cada web ha d'haver estat desenvolupada a Barcelona al menys en un 50% i ha de tenir un mínim de tràfic de 5.000 visites al mes.
+            %article
+              %h3 2. La meva companyia és a barcelona però el codi està picat fora.
+              %p No podem ser llistada aquí. Per això existeixen mil·lers d'altres llistats
+            %article
+              %h3 3. Com demostro que tinc més de 5.000 visites al mes?
+              %p Pel moment ens en refiem de la teva paraula. Pendent de perfeccionar
+          .apply-form
+
+      %section.startups
+
+        -data.startups.each do |startup|
+          %article.company
+            %a{'href' => startup.url, 'title' => startup.name + startup.description}
+              =image_tag startup.name.downcase+'.png', :alt => startup.name
+              %h2 #{startup.name}
+              %p.description #{startup.description}
+
+      %footer
+        .logo-symbol
+        .more-info
+          :markdown
+            **Més informació i contacte a** [hola@internetmadeinbcn](mailto:hola@internetmadeinbcn);
+        .more-info
+          %strong Darrere de Internet Made in BCN hi ha
+          -data.creators.each do |creator|
+            =link_to creator.twitter, creator.url
+
+    =javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'
+    %script window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')
+    =javascript_include_tag 'js/plugins.js'
+    =javascript_include_tag 'js/main.js'
