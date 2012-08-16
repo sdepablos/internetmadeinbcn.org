@@ -2,11 +2,14 @@
   name: Ulabox
   url: https://ulabox.com
   description: "Tu súper 100% online donde podrás hacer tus compras cómodamente desde casa, las 24h del día, 365 días al año."
+  slug: ulabox
 -
   name: Trovit
   url: http://www.trovit.com
   description: "el Buscador de anuncios clasificados, principalmente inmuebles, vehículos y trabajo."
+  slug: trovit
 -
   name: Offerum
   url: http://www.offerum.com
   description: "Ofertas y descuentos en Toledo de belleza y estética, restaurantes, ocio, aventuras, viajes y escapada."
+  slug: offerum

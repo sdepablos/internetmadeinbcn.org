@@ -29,13 +29,13 @@
         .apply
           .apply-rules
             %article
-              %h3 1. Quines condicions tenen aquestes webs aquí llistades?
+              %h3 1. Quines condicions tenen aquestes webs aquí llistades?
               %p Cada web ha d'haver estat desenvolupada a Barcelona al menys en un 50% i ha de tenir un mínim de tràfic de 5.000 visites al mes.
             %article
               %h3 2. La meva companyia és a barcelona però el codi està picat fora.
               %p No podem ser llistada aquí. Per això existeixen mil·lers d'altres llistats
             %article
-              %h3 3. Com demostro que tinc més de 5.000 visites al mes?
+              %h3 3. Com demostro que tinc més de 5.000 visites al mes?
               %p Pel moment ens en refiem de la teva paraula. Pendent de perfeccionar
           .apply-form
 
@@ -44,7 +44,7 @@
         -data.startups.each do |startup|
           %article.company
             %a{'href' => startup.url, 'title' => startup.name + startup.description}
-              =image_tag startup.name.downcase+'.png', :alt => startup.name
+              =image_tag startup.slug.downcase+'.png', :alt => startup.name
               %h2 #{startup.name}
               %p.description #{startup.description}
 
