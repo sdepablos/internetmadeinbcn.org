@@ -1,5 +1,12 @@
 !!! 5
-%html
+
+/[if lt IE 7]<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7]<html class="no-js lt-ie9 lt-ie8" lang="en">
+/[if IE 8]<html class="no-js lt-ie9" lang="en">
+<!--[if gt IE 8]><!-->
+%html.no-js( lang = "en" )
+  <!--<![endif]-->
+
   %head
 
     %meta{'charset' => 'utf-8'}
@@ -10,10 +17,10 @@
 
     %meta{'name' => 'viewport', 'content' => 'width=device-width'}
 
-    =stylesheet_link_tag 'layout'
-    =javascript_include_tag 'js/modernizr-2.6.1.min.js'
+    %link{'rel' => 'stylesheet', 'href' => 'css/style.css'}
 
-    =javascript_include_tag '//use.typekit.net/hta7jps.js'
+    %script{'src' => 'js/vendor/modernizr-2.6.1.min.js'}
+    %script{'src' => '//use.typekit.net/hta7jps.js'}
     %script try{Typekit.load();}catch(e){}
 
   %body
@@ -39,8 +46,7 @@
               %p Pel moment ens en refiem de la teva paraula. Pendent de perfeccionar
           .apply-form
 
-      %section.startups
-
+      .startups
         -data.startups.each do |startup|
           %article.company
             %a{'href' => startup.url, 'title' => startup.name + startup.description}
@@ -58,7 +64,12 @@
           -data.creators.each do |creator|
             =link_to creator.twitter, creator.url
 
-    =javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'
+    %script{'src' => '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'}
     %script window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')
-    =javascript_include_tag 'js/plugins.js'
-    =javascript_include_tag 'js/main.js'
+    %script{'src' => 'js/plugins.js'}
+    %script{'src' => 'js/main.js'}
+    :javascript
+      var _gaq=[['_setAccount','UA-34161676-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
