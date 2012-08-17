@@ -1,40 +1,40 @@
 -
   name: Ulabox
   url: https://www.ulabox.com
-  description: "El supermercat 100% online amb entrega en 24h"
+  description: "El supermercado 100% online con entrega en 24h"
   slug: ulabox
 -
   name: Trovit
   url: http://www.trovit.com
-  description: "el Buscador d'anuncios classificats de feina, pisos, cotxes..."
+  description: "el Buscador de anuncios clasificado de empleo, pisos, coche, …"
   slug: trovit
 -
   name: Offerum
   url: http://www.offerum.com
-  description: "Ofertes y dtes. en bellesa, restaurants, oci, viatges i escapades."
+  description: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
   slug: offerum
 -
   name: Softonic
   url: http://www.softonic.com
-  description: "Tots programes a un sol clic."
+  description: "Todos los programas a un solo clic"
   slug: softonic
 -
   name: Letsbonus
   url: http://www.letsbonus.com
-  description: "Ofertes y dtes. en bellesa, restaurants, oci, viatges i escapades"
+  description: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
   slug: letsbonus
 -
   name: Emagister
   url: http://www.emagister.com
-  description: "Tots els cursos a Internet."
+  description: "Te ayudamos a encontrar tu formación ideal"
   slug: emagister
 -
   name: Uncomo
   url: http://www.uncomo.com
-  description: "La web de how-to en español"
+  description: "Soluciones prácticas a problemas cotidianos. El how-to español"
   slug: uncomo
 -
   name: SocialPoint
   url: http://www.socialpoint.es
-  description: "Jocs per a Facebook fets a Bcn"
+  description: "Los mejores juegos sociales para Facebook y móviles"
   slug: socialpoint

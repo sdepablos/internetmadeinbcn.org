@@ -121,6 +121,7 @@ img { max-width: 100%; }
 .startups {
 	@include trailing-border(1px, 0);
 	border-color: $line-color;
+	list-style: none;
 }
 
 .company {
@@ -167,10 +168,14 @@ img { max-width: 100%; }
 		display: block;
 	}
 
-	@include respond-to-mobile-only {
+	@include respond-to-tablet-portrait-and-below {
 		float: none;
 	}
 
+}
+
+.creator {
+	margin-right: 1em;
 }
 
 .nav {
