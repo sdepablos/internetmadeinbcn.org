@@ -1,9 +1,4 @@
 require 'haml'
-
-
-# Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
-
 set :css_dir, 'css'
 set :js_dir, 'js'
 set :images_dir, 'img'
