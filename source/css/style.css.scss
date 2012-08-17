@@ -25,6 +25,7 @@ img { max-width: 100%; }
 
 .wrapper {
 	@include leader(2);
+	@include trailer(4);
 	max-width: 1180px;
 	margin-left: auto;
 	margin-right: auto;
@@ -78,7 +79,7 @@ img { max-width: 100%; }
 }
 
 .apply-rules {
-	width: 66.66666%;
+	width: 60%;
 	padding: 1em 2em;
 	float: left;
 
@@ -107,7 +108,7 @@ img { max-width: 100%; }
 }
 
 .apply-form {
-	width: 33.3333%;
+	width: 40%;
 	padding: 1em 2em;
 	float: left;
 	background: #505666;
@@ -118,24 +119,31 @@ img { max-width: 100%; }
 }
 
 .startups {
-
+	@include trailing-border(1px, 0);
+	border-color: $line-color;
 }
 
 .company {
+	@include leading-border(1px, 0);
+	border-width: 1px;
 	float: left;
 	width: 25%;
+	height: 320px;
 	padding: 1em;
 	text-align: center;
+	border-color: $line-color;
 	border-right: solid 1px $line-color;
 
 	a:hover { text-decoration: none; }
 
-	&:nth-child(3n+4) { border-right: none; }
+	@include respond-to-tablet-portrait-and-up {
+		&:nth-child(4n+0) { border-right: none; }
+	}
 
 	@include respond-to-tablet-portrait-and-below {
 		width: 33%;
-		&:nth-child(2n+3) { border-right: none; }
-		&:nth-child(3n+4) { clear: left; }
+		&:nth-child(3n+0) { border-right: none; }
+		&:nth-child(4n+0) { clear: left; }
 	}
 
 	@include respond-to-mobile-landscape-only {
@@ -150,6 +158,28 @@ img { max-width: 100%; }
 	.description {
 		color: $gray-light;
 	}
+}
+
+.more-info {
+	float: right;
+	padding: 1em 2em;
+	strong {
+		display: block;
+	}
+
+	@include respond-to-mobile-only {
+		float: none;
+	}
+
+}
+
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li { display: inline; }
+	a { display: inline-block; }
 }
 
 // =============================================================================
