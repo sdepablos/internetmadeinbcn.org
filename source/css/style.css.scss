@@ -150,14 +150,13 @@ img { max-width: 100%; }
 
 	a:hover { text-decoration: none; }
 
-	@include respond-to-tablet-portrait-and-up {
+	@include respond-to-desktop-and-up {
 		&:nth-child(4n+0) { border-right: none; }
 	}
 
-	@include respond-to-tablet-portrait-and-below {
+	@include respond-to-tablet-only {
 		width: 33%;
 		&:nth-child(3n+0) { border-right: none; }
-		&:nth-child(4n+0) { clear: left; }
 	}
 
 	@include respond-to-mobile-landscape-and-below {
