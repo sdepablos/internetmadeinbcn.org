@@ -8,16 +8,19 @@
   url: http://www.trovit.com
   description: "el Buscador de anuncios clasificado de empleo, pisos, coche, …"
   slug: trovit
+  jobs: http://about.trovit.com/jobs/
 -
   name: Offerum
   url: http://www.offerum.com
   description: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
   slug: offerum
+  jobs: http://empleo.offerum.com/
 -
   name: Softonic
   url: http://www.softonic.com
   description: "Todos los programas a un solo clic"
   slug: softonic
+  jobs: http://softonic.asp.infojobs.net/home/index.xhtml
 -
   name: Letsbonus
   url: http://www.letsbonus.com
