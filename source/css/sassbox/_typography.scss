@@ -1,0 +1,166 @@
+// =============================================================================
+// Typography
+//
+// Basic typography styles.
+//
+// Table of contents:
+// 1. Font sizes
+// 2. Font families & weights
+// 3. Base typography
+// 4. Text styles
+// 5. Text blocks
+//
+// =============================================================================
+
+// =============================================================================
+// Imports
+// =============================================================================
+@import "sassbox/typography/rem";
+
+@mixin adjust-font-size-to-rems($size: $base-font-size) {
+
+	@include adjust-font-size-to($size);
+
+	// Set the font-size in Rem units
+	@include rem(font-size, $size);
+}
+
+// Fonts
+// =============================================================================
+
+$base-font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif !default;
+$alternate-font-family: Georgia, "Times New Roman", serif !default;
+
+// =============================================================================
+// 1. Font sizes
+//
+// @usage: Whenever you need to turn a heading up or down you just need to
+//     assing an abstract class to it. For example if you need a huge h1 you
+//     should do it like this:
+//     <h4 class="giga">Hello</h4> <!-- I'm a huge H4 -->
+//     <h2 class="delta">Hello</h2> <!-- I'm a little H2 -->
+//     <p class="gamma"> <!-- Yes! It also works on big paragraphs  -->
+//
+// =============================================================================
+
+// Establish the vertical rythm
+// @todo: Check if we should pass the $base-font-size
+@include establish-baseline;
+
+// Massive, less frequent type for use in mastheads and banners.
+// =============================================================================
+
+.giga{
+	@include adjust-font-size-to-rems(68px);
+	@include rem(word-spacing, 2px);
+}
+
+.mega{
+	@include adjust-font-size-to-rems(50px);
+	@include rem(word-spacing,2px);
+}
+
+.kilo{
+	@include adjust-font-size-to-rems(42px);
+	@include rem(word-spacing,2px);
+}
+
+// Headings and their associated classes.
+// =============================================================================
+
+h1, .alpha{
+	@include adjust-font-size-to-rems(31px);
+}
+
+h2, .beta{
+	@include adjust-font-size-to-rems(26px);
+}
+
+h3, .gamma{
+	@include adjust-font-size-to-rems(19px);
+}
+
+h4, .delta{
+	@include adjust-font-size-to-rems($base-font-size);
+}
+
+/* Small print classes. */
+// =============================================================================
+
+.milli {
+	@include adjust-font-size-to-rems(14px);
+}
+
+small, .micro {
+	@include adjust-font-size-to-rems(12px);
+}
+
+.nano {
+	@include adjust-font-size-to-rems(10px);
+}
+
+
+// =============================================================================
+// 2. Font families & weights
+// =============================================================================
+
+h1 { font-weight: normal; }
+h3 { line-height: 1.3; }
+// =============================================================================
+// 3. Base typography
+// =============================================================================
+
+body											{ font-family: $base-font-family; font-size: 100%; color: $base-text-color; }
+b, strong, caption, th, thead, dt, legend		{ font-weight: bold; }
+cite, dfn, em, i								{ font-style: italic; }
+code, kbd, samp, pre, tt, var					{ font-family: mono-space, monospace; }
+p												{ margin-top: 0; hyphenate: auto; hyphenate-lines: 3; }
+pre												{ white-space: pre; }
+del												{ text-decoration: line-through; }
+mark											{ background: rgba(255, 255, 0, 0.4); padding: 0 .25em; }
+ins												{ color: #f00; }
+small, sup, sub									{ font-size: 80%; }
+blockquote										{ font-family: $alternate-font-family; position: relative; top: 4px; padding: $base-line-height 1.5em;  }
+hr												{ border: none; background: #ddd; width: 100%; }
+ul												{ list-style: disc outside; }
+ol												{ list-style: decimal outside; }
+table											{ font: inherit; width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+small,
+.giga,
+.mega,
+.kilo,
+.alpha,
+.beta,
+.gamma,
+.delta,
+.milli,
+.micro,
+.nano {
+	// Removes margin from headings
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	small {
+		color: $gray-light;
+	}
+}
+// =============================================================================
+// 4. Text styles
+// =============================================================================
+
+// Anchor links
+// =============================================================================
+
+a {
+	color: $link-color;
+	text-decoration: none;
+	&:hover {
+		color: $link-hover-color;
+		text-decoration: underline;
+	}
+}

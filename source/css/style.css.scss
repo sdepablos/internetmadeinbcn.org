@@ -1,0 +1,236 @@
+// =============================================================================
+//
+// Internet Made in BCN
+//
+// =============================================================================
+
+// =============================================================================
+// 1. Imports
+// =============================================================================
+
+// Imports the _base partial which includes the Compass and Sassbox frameworks
+@import "base";
+
+// =============================================================================
+// 2. Structure
+// =============================================================================
+
+body {
+	@include respond-to-mobile-only {
+		font-size: 80%;
+	}
+}
+
+img { max-width: 100%; }
+
+.wrapper {
+	@include leader(2);
+	max-width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+
+	// Makes the wrapper 90% width on tablets and up
+	@include respond-to-tablet-portrait-and-up {
+		width: 90%;
+	}
+
+	// Adds padding on mobile and removes the leader
+	@include respond-to-mobile-only {
+		@include leader(0);
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+}
+
+.masthead {
+	@include rhythm($padding-leader: 2, $padding-trailer: 2);
+	max-width: 40em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mission {
+	@include leader(1);
+}
+
+.intro {
+	@include leader(2);
+	color: $gray;
+	padding-left: 3em;
+	padding-right: 3em;
+
+}
+
+.join {
+}
+
+.apply {
+	@include box-shadow(inset 0 1px 3px rgba(33,36,45,.25));
+	display: none;
+	background: #858891;
+	color: $white;
+}
+
+.apply-toggle {
+	@include trailer(3);
+	text-align: center;
+}
+
+.apply-rules {
+	width: 66.66666%;
+	padding: 1em 2em;
+	float: left;
+
+	article {
+		@include leader(2);
+
+		&:nth-child(1n+2) {
+			max-width: 50%;
+			padding-right: 1em;
+			float: left;
+
+			@include respond-to-mobile-only {
+				max-width: none;
+				float: none;
+				padding-right: 0;
+			}
+		}
+
+	}
+
+
+	@include respond-to-tablet-portrait-and-below {
+		width: 100%;
+		float: none;
+	}
+}
+
+.apply-form {
+	width: 33.3333%;
+	padding: 1em 2em;
+	float: left;
+	background: #505666;
+
+	@include respond-to-tablet-portrait-and-below {
+		width: 100%;
+	}
+}
+
+.startups {
+
+}
+
+.company {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	text-align: center;
+	border-right: solid 1px $line-color;
+
+	a:hover { text-decoration: none; }
+
+	&:nth-child(3n+4) { border-right: none; }
+
+	@include respond-to-tablet-portrait-and-below {
+		width: 33%;
+		&:nth-child(2n+3) { border-right: none; }
+		&:nth-child(3n+4) { clear: left; }
+	}
+
+	@include respond-to-mobile-landscape-only {
+		width: 100%;
+		border-right: none;
+	}
+
+	.name {
+		text-transform: uppercase;
+	}
+
+	.description {
+		color: $gray-light;
+	}
+}
+
+// =============================================================================
+// 3. Skin
+// =============================================================================
+
+body { background: $gray-lighter; }
+
+.wrapper { background: $white; }
+
+.logo {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #535762;
+
+	&:after {
+		content: '';
+		display: block;
+		width: 6em;
+		height: 1em;
+		margin: .5em auto 0;
+
+		// Logo square colors
+		$total-colors: 6;
+		$line-width: 100 / $total-colors + 0%;
+		@include background-image(linear-gradient(left,
+			color-stops(
+				#2ba5b7 $line-width,
+				#fdf0ba $line-width, #fdf0ba $line-width *2,
+				#fcdd4c $line-width * 2, #fcdd4c $line-width * 3,
+				#fdcc2f $line-width * 3, #fdcc2f $line-width * 4,
+				#fa9229 $line-width * 4, #fa9229 $line-width * 5,
+				#f4521f $line-width * 5, #f4521f $line-width * 6
+			)
+		));
+	}
+}
+
+.logo__madeinbcn {
+	display: block;
+}
+
+.btn {
+	@include border-radius(4px);
+	display: inline-block;
+	padding: 3px;
+	border: solid 1px #bcc2d1;
+	background: #dcdcdc;
+	text-align: center;
+	font-weight: bold;
+	color: #858891;
+	cursor: pointer;
+
+	span {
+		@include border-radius(3px);
+		@include box-shadow(inset 0 1px 0 rgba(255,255,255,.75));
+
+		display: block;
+		border: solid 1px #bcc2d1;
+		background: #efefef;
+		padding: 8px 1em;
+	}
+
+	&:hover {
+		@include transition(background .25s ease-out);
+		text-decoration: none;
+		color: #858891;
+
+		span {
+			background: $white;
+		}
+	}
+
+	&:active,
+	&.active {
+		color: lighten(#858891,20%);
+		span {
+			@include box-shadow(inset 0 1px 1px rgba(0,0,0,.25));
+			background: darken($white, 5%);
+		}
+	}
+}

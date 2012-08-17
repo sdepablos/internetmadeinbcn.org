@@ -1,0 +1,80 @@
+// =============================================================================
+// Helpers
+// A collection of helper classes
+//
+// Table of contents:
+// 1. Clearfix
+// 2. Floats
+// 3. Text utilities
+// 4. Display utilities (Hidden, Invisible, …)
+// 5. Hidden text
+// =============================================================================
+
+// =============================================================================
+// 1. Clearfix
+// =============================================================================
+
+.cf {
+	@include pie-clearfix;
+}
+
+// =============================================================================
+// 2. Floats
+// =============================================================================
+
+// Float left
+.fl {
+	@include float-left;
+}
+
+// Float right
+.fr {
+	@include float-right;
+}
+
+// Clear left
+.cl {
+	clear: left;
+}
+
+// Clear right
+.cr {
+	clear: right;
+}
+
+// =============================================================================
+// 3. Text utilities
+// =============================================================================
+
+// Ellipsis clips text that does not fit into its box
+.ellipsis {
+  @include ellipsis;
+}
+
+// =============================================================================
+// 4. Display utilities
+// =============================================================================
+
+// Hide for both screenreaders and browsers:
+// css-discuss.incutio.com/wiki/Screenreader_Visibility
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+// Hide visually and from screenreaders, but maintain layout
+.invisible {
+	visibility: hidden;
+}
+
+// =============================================================================
+// 5. Hidden text
+// =============================================================================
+
+// Hides text using the kellum method
+// http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+.ht {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}

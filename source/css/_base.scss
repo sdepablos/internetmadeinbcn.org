@@ -1,0 +1,29 @@
+// =============================================================================
+// Internet Made in BCN
+// Base imports frameworks and sets configurable variables
+// =============================================================================
+
+// Configurable variables
+// =============================================================================
+
+// Disable legacy support for IE6 & IE7
+$legacy-support-for-ie: false;
+
+// Border radius
+$default-border-radius: 4px;
+
+// Vertical Rythm
+$base-font-size: 16px;
+$base-line-height: 19px;
+
+
+// Imports
+// =============================================================================
+
+// Compass @imports
+@import "compass/css3",
+ 		"compass/utilities",
+		"compass/typography";
+
+// Sassbox @import
+@import "sassbox";

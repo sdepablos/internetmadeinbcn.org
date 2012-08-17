@@ -1,0 +1,36 @@
+// =============================================================================
+// Colors
+// =============================================================================
+
+// Grays
+$white:				#fff !default;
+$gray-lighter:		#efefef !default;
+$gray-light:		#999 !default;
+$gray:				#777 !default;
+$gray-dark:			#555 !default;
+$gray-darker:		#333 !default;
+$black:				#000 !default;
+
+// Accent Colors
+$blue:				#2ba5b7 !default;
+$green:				#92cd54 !default;
+$red:				#f41f1f !default;
+$green: 			#569564 !default;
+$yellow:			#fcdd4c !default;
+$orange:			#f4521f !default;
+$pink:				#fa5b7d !default;
+$purple: 			#7a43b6 !default;
+
+// Link Colors
+$link-color:		$blue !default;
+$link-hover-color:	$orange !default;
+
+// Text Colors
+$base-text-color:	#676c79 !default;
+$strong-text-color:	$black !default;
+$weak-text-color:	$gray !default;
+$header-color:		$gray-lighter !default;
+$blockquote-color:	$gray-lighter !default;
+
+// Line & Border colors
+$line-color: 		#e6e6e6 !default;

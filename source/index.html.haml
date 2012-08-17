@@ -15,8 +15,7 @@
     %title Internet Made in BCN
     %meta{'description' => 'Directori de startups de base tecnològica desenvolupades des de Barcelona i per al món.'}
 
-    %meta{'name' => 'viewport', 'content' => 'width=device-width'}
-
+    %meta{'name' => 'viewport', 'content' => 'width=device-width', 'initial-scale' => '1'}
     %link{'rel' => 'stylesheet', 'href' => 'css/style.css'}
 
     %script{'src' => 'js/vendor/modernizr-2.6.1.min.js'}
@@ -25,16 +24,20 @@
 
   %body
     .wrapper
-      %header
-        =link_to 'Internet Made in BCN', 'http://www.internetmadeinbcn.com', 'class' => 'logo'
-        %h1 Directori de startups de base tecnològica desenvolupades des de Barcelona i per al món.
-        %p Barcelona ha esdevingut un hub per a l'emprenedoria. I aquest llistat no pretén més que ser un testimoni d'aquesta realitat.
+      %header.masthead
+        %a.logo
+          %span.logo__internet Internet
+          %span.logo__madeinbcn Made in BCN
+        %h1.mission Directori de startups de base tecnològica desenvolupades des de Barcelona i per al món.
+        %p.intro Barcelona ha esdevingut un hub per a l'emprenedoria. I aquest llistat no pretén més que ser un testimoni d'aquesta realitat.
 
       %section.join
-        %a.btn.btn--join.js-btn-join{:href => '#'} + Inclou la teva
+        .apply-toggle
+          %a.btn.btn--join.js-btn-join.js-smooth-scroll{:href => '#'}
+            %span + Inclou la teva
 
-        .apply
-          .apply-rules
+        .apply.cf
+          .apply-rules.cf
             %article
               %h3 1. Quines condicions tenen aquestes webs aquí llistades?
               %p Cada web ha d'haver estat desenvolupada a Barcelona al menys en un 50% i ha de tenir un mínim de tràfic de 5.000 visites al mes.
@@ -45,14 +48,30 @@
               %h3 3. Com demostro que tinc més de 5.000 visites al mes?
               %p Pel moment ens en refiem de la teva paraula. Pendent de perfeccionar
           .apply-form
+            %div#wufoo-z7x3p9
+              :javascript
+                var z7x3p9;(function(d, t) {
+                var s = d.createElement(t), options = {
+                'userName':'ulabox',
+                'formHash':'z7x3p9',
+                'autoResize':true,
+                'height':'440',
+                'async':true,
+                'header':'show'};
+                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+                s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { z7x3p9 = new WufooForm();z7x3p9.initialize(options);z7x3p9.display(); } catch (e) {}};
+                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                })(document, 'script');
 
-      .startups
+      .startups.cf
         -data.startups.each do |startup|
           %article.company
             %a{'href' => startup.url, 'title' => startup.name + startup.description}
               =image_tag startup.slug.downcase+'.png', :alt => startup.name
-              %h2 #{startup.name}
-              %p.description #{startup.description}
+              %h2.name.delta #{startup.name}
+              %p.description.milli #{startup.description}
 
       %footer
         .logo-symbol
@@ -66,8 +85,7 @@
 
     %script{'src' => '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js'}
     %script window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')
-    %script{'src' => 'js/plugins.js'}
-    %script{'src' => 'js/main.js'}
+    %script{'src' => 'js/script.js'}
     :javascript
       var _gaq=[['_setAccount','UA-34161676-1'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

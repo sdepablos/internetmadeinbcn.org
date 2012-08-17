@@ -1,0 +1,145 @@
+// =============================================================================
+// Tables
+// Base styles, modifiers and optional row classes
+// =============================================================================
+
+// Tables variables
+// =============================================================================
+
+$table-background:          transparent !default;
+$table-background-stripe:   darken($white, 3%) !default;
+$table-background-hover:    darken($white, 6%) !default;
+$table-border:              $line-color !default;
+
+// Base tables
+// =============================================================================
+
+table {
+	max-width: 100%;
+	background-color: $table-background;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// Baseline styles
+// =============================================================================
+
+.table {
+	width: 100%;
+	margin-bottom: $base-line-height;
+
+	// Cells
+	th, td {
+		padding: 8px;
+		line-height: $base-line-height;
+		text-align: left;
+		vertical-align: top;
+		border-top: 1px solid $table-border;
+	}
+
+	th {
+		font-weight: bold;
+	}
+
+	// Bottom align for column headings
+	thead th {
+		vertical-align: bottom;
+	}
+
+	// Remove top border from thead by default
+	caption + thead tr:first-child th, caption + thead tr:first-child td,
+	colgroup + thead tr:first-child th, colgroup + thead tr:first-child td,
+	thead:first-child tr:first-child th, thead:first-child tr:first-child td {
+		border-top: 0;
+	}
+
+  // Account for multiple tbody instances
+	tbody + tbody {
+		border-top: 2px solid $table-border;
+	}
+}
+
+// Condensed table w/ half padding
+// =============================================================================
+
+.table--condensed {
+	th, td {
+		padding: 4px 5px;
+	}
+}
+
+// Bordered modifier
+// =============================================================================
+
+.table--bordered {
+	@include border-radius(4px);
+	border: 1px solid $table-border;
+	border-collapse: separate; // Done so we can round those corners!
+	border-left: 0;
+
+	th, td { border-left: 1px solid $table-border; }
+
+	// Prevent a double border
+	caption + thead tr:first-child th, caption + tbody tr:first-child th, caption + tbody tr:first-child td,
+	colgroup + thead tr:first-child th, colgroup + tbody tr:first-child th, colgroup + tbody tr:first-child td,
+	thead:first-child tr:first-child th, tbody:first-child tr:first-child th, tbody:first-child tr:first-child td {
+		border-top: 0;
+	}
+
+	// For first th or td in the first row in the first thead or tbody
+	thead:first-child tr:first-child th:first-child, tbody:first-child tr:first-child td:first-child {
+		@include border-top-left-radius($default-border-radius);
+	}
+
+	thead:first-child tr:first-child th:last-child, tbody:first-child tr:first-child td:last-child {
+		@include border-top-right-radius($default-border-radius);
+	}
+
+	// For first th or td in the first row in the first thead or tbody
+	thead:last-child tr:last-child th:first-child, tbody:last-child tr:last-child td:first-child {
+		@include border-bottom-left-radius($default-border-radius);
+	}
+
+	thead:last-child tr:last-child th:last-child, tbody:last-child tr:last-child td:last-child {
+		@include border-bottom-right-radius($default-border-radius);
+	}
+}
+
+// Striped
+// =============================================================================
+
+// Default zebra-stripe styles (alternating gray and transparent backgrounds)
+.table--striped {
+	tbody {
+		tr:nth-child(odd) td, tr:nth-child(odd) th {
+			background-color: $table-background-stripe;
+		}
+	}
+}
+
+// Row hovers
+// =============================================================================
+
+// Has to be placed after the Striped effect
+.table--hovered {
+	tbody tr:hover td, tbody tr:hover th {
+		background-color: $table-background-hover;
+	}
+}
+
+// Row contextual classes
+//  @to-do: Use more abstract class like Twitter Bootsrap does, so succes,
+//    error and info affect other kinds of elements
+// =============================================================================
+
+.table__row--success td {
+	background-color: fade-out($green, .75);
+}
+
+.table__row--error td {
+	background-color: fade-out($red, .75);
+}
+
+.table__row--info td {
+	background-color: fade-out($blue, .75);
+}
