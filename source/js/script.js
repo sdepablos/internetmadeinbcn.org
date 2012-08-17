@@ -14,7 +14,6 @@ $(function(){
 
 	});
 
-
 	var $body = $('html, body');
 
 	$body.on('click','.js-smooth-scroll', function() {
