@@ -2,6 +2,13 @@
 //
 // Internet Made in BCN
 //
+// Table of contents:
+// 1. Imports
+// 2. Body & Wrapper
+// 3. Masthead
+// 4. Join us
+// 5. Companies
+//
 // =============================================================================
 
 // =============================================================================
@@ -12,13 +19,12 @@
 @import "base";
 
 // =============================================================================
-// 2. Structure
+// 2. Body & Wrapper
 // =============================================================================
 
 body {
-	@include respond-to-mobile-only {
-		font-size: 80%;
-	}
+	@include respond-to-mobile-only { font-size: 80%; }
+	background: $gray-lighter;
 }
 
 img { max-width: 100%; }
@@ -29,20 +35,25 @@ img { max-width: 100%; }
 	max-width: 1180px;
 	margin-left: auto;
 	margin-right: auto;
+	background: $white;
 
 	// Makes the wrapper 90% width on tablets and up
-	@include respond-to-tablet-portrait-and-up {
-		width: 90%;
-	}
+	@include respond-to-tablet-portrait-and-up { width: 90%; }
 
-	// Adds padding on mobile and removes the leader
+	// Adds padding and removes the leader on mobile
 	@include respond-to-mobile-only {
 		@include leader(0);
 		padding-left: 1em;
 		padding-right: 1em;
 	}
 
+	// Smoother scrolling in webkit browsers enabling GPU accelarion
+	 -webkit-transform: translate3d(0, 0, 0);
 }
+
+// =============================================================================
+// 2. Body & Wrapper
+// =============================================================================
 
 .masthead {
 	@include rhythm($padding-leader: 2, $padding-trailer: 2);
@@ -50,162 +61,6 @@ img { max-width: 100%; }
 	margin: 0 auto;
 	text-align: center;
 }
-
-.mission {
-	@include leader(1);
-}
-
-.intro {
-	@include leader(2);
-	color: $gray;
-	padding-left: 3em;
-	padding-right: 3em;
-
-}
-
-.join {
-
-}
-
-.apply {
-	@include box-shadow(inset 0 1px 3px rgba(33,36,45,.25));
-	@include respond-to-tablet-portrait-and-up {
-		height: 650px;
-	}
-
-	@include respond-to-tablet-only {
-		height: 970px;
-	}
-
-	@include respond-to-mobile-only {
-		height: 1100px;
-	}
-	display: none;
-	background: #858891;
-	color: $white;
-}
-
-.apply-toggle {
-	@include trailer(3);
-	text-align: center;
-}
-
-.apply-rules {
-	width: 60%;
-	padding: 1em 2em;
-	float: left;
-
-	article {
-		@include leader(2);
-
-		&:nth-child(1n+2) {
-			max-width: 50%;
-			padding-right: 1em;
-			float: left;
-
-			@include respond-to-mobile-only {
-				max-width: none;
-				float: none;
-				padding-right: 0;
-			}
-		}
-
-	}
-
-
-	@include respond-to-tablet-portrait-and-below {
-		width: 100%;
-		float: none;
-	}
-}
-
-.apply-form {
-	width: 40%;
-	padding: 1em 2em;
-	float: left;
-	background: #505666;
-
-	@include respond-to-tablet-portrait-and-below {
-		width: 100%;
-	}
-}
-
-.startups {
-	@include trailing-border(1px, 0);
-	padding: 0;
-	border-color: $line-color;
-	list-style: none;
-}
-
-.company {
-	@include leading-border(1px, 0);
-	border-width: 1px;
-	float: left;
-	width: 25%;
-	height: 320px;
-	padding: 1em;
-	text-align: center;
-	border-color: $line-color;
-	border-right: solid 1px $line-color;
-
-	a:hover { text-decoration: none; }
-
-	@include respond-to-desktop-and-up {
-		&:nth-child(4n+0) { border-right: none; }
-	}
-
-	@include respond-to-tablet-only {
-		width: 33%;
-		&:nth-child(3n+0) { border-right: none; }
-	}
-
-	@include respond-to-mobile-landscape-and-below {
-		width: 100%;
-		border-right: none;
-	}
-
-	.name {
-		text-transform: uppercase;
-	}
-
-	.description {
-		color: $gray-light;
-	}
-}
-
-.more-info {
-	float: right;
-	padding: 1em 2em;
-	strong {
-		display: block;
-	}
-
-	@include respond-to-tablet-portrait-and-below {
-		float: none;
-	}
-
-}
-
-.creator {
-	margin-right: 1em;
-}
-
-.nav {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
-	li { display: inline; }
-	a { display: inline-block; }
-}
-
-// =============================================================================
-// 3. Skin
-// =============================================================================
-
-body { background: $gray-lighter; }
-
-.wrapper { background: $white; }
 
 .logo {
 	display: block;
@@ -237,47 +92,150 @@ body { background: $gray-lighter; }
 	}
 }
 
-.logo__madeinbcn {
-	display: block;
+.logo__madeinbcn { display: block; }
+
+.mission {
+	@include leader(1);
 }
 
-.btn {
-	@include border-radius(4px);
-	display: inline-block;
-	padding: 3px;
-	border: solid 1px #bcc2d1;
-	background: #dcdcdc;
+.intro {
+	@include leader(2);
+	color: $gray;
+	padding-left: 3em;
+	padding-right: 3em;
+
+}
+
+// =============================================================================
+// 3. Join us
+// =============================================================================
+
+.apply {
+	@include box-shadow(inset 0 1px 3px rgba(33,36,45,.25));
+
+	// Dirty workaround to prevent jumpy and wrong height slideDown
+	//   @to-do: use a better solution without explicitly defined heights
+	@include respond-to-tablet-portrait-and-up { height: 650px; }
+	@include respond-to-mobile-only { height: 1100px; }
+
+	// Collapse section
+	display: none;
+
+	background: #858891;
+	color: $white;
+}
+
+.apply-toggle {
+	@include trailer(3);
 	text-align: center;
-	font-weight: bold;
-	color: #858891;
-	cursor: pointer;
+}
 
-	span {
-		@include border-radius(3px);
-		@include box-shadow(inset 0 1px 0 rgba(255,255,255,.75));
+.apply-rules {
+	width: 60%;
+	padding: 1em 2em;
+	float: left;
 
-		display: block;
-		border: solid 1px #bcc2d1;
-		background: #efefef;
-		padding: 8px 1em;
-	}
+	article {
+		@include leader(2);
 
-	&:hover {
-		@include transition(background .25s ease-out);
-		text-decoration: none;
-		color: #858891;
+		&:nth-child(1n+2) {
+			max-width: 50%;
+			padding-right: 1em;
+			float: left;
 
-		span {
-			background: $white;
+			// Make every article span full width on mobile
+			@include respond-to-mobile-only {
+				max-width: none;
+				padding-right: 0;
+				float: none;
+			}
 		}
 	}
 
-	&:active,
-	&.active {
-		color: lighten(#858891,20%);
-		span {
-			@include box-shadow(inset 0 1px 1px rgba(0,0,0,.25));
-			background: darken($white, 5%);
-		}
+	// Makes the apply rules span the full width of its container
+	@include respond-to-tablet-portrait-and-below {
+		width: 100%;
+		float: none;
 	}
+}
+
+.apply-form {
+	width: 40%;
+	padding: 1em 2em;
+	float: left;
+	background: #505666;
+
+	// Spans the full width on tablet and mobile devices
+	@include respond-to-tablet-portrait-and-below { width: 100%; }
+}
+
+// =============================================================================
+// 5. Companies
+// =============================================================================
+
+.startups {
+	@include leading-border(1px, 0);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-color: $line-color;
+}
+
+.company {
+	@include trailing-border(1px, 0);
+	width: 25%;
+	height: 320px;
+	padding: 1em;
+	float: left;
+	text-align: center;
+	border-width: 1px;
+	border-color: $line-color;
+	border-right: solid 1px $line-color;
+
+	.name { text-transform: uppercase; }
+
+	.description { color: $gray-light; }
+
+	// Four companies per row on Desktop
+	@include respond-to-desktop-and-up {
+		&:nth-child(4n+0) { border-right: none; }
+	}
+
+	// Three companies per row on Tablets
+	@include respond-to-tablet-only {
+		width: 33%;
+		&:nth-child(3n+0) { border-right: none; }
+	}
+
+	// A single company per row on mobile
+	@include respond-to-mobile-only {
+		width: 100%;
+		border-right: none;
+	}
+
+}
+
+// =============================================================================
+// 6. Footer
+// =============================================================================
+
+.more-info {
+	padding: 1em 2em;
+	float: right;
+
+	strong { display: block; }
+
+	@include respond-to-tablet-portrait-and-below { float: none; }
+
+}
+
+.creator { margin-right: 1em; }
+
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li { display: inline; }
+	a { display: inline-block; }
 }

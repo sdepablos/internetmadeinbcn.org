@@ -1,0 +1,43 @@
+// =============================================================================
+//
+// Buttons module
+//
+// =============================================================================
+
+.btn {
+	@include border-radius(4px);
+	display: inline-block;
+	padding: 3px;
+	border: solid 1px #bcc2d1;
+	background: #dcdcdc;
+	text-align: center;
+	font-weight: bold;
+	color: #858891;
+	cursor: pointer;
+
+	span {
+		@include border-radius(3px);
+		@include box-shadow(inset 0 1px 0 rgba(255,255,255,.75));
+
+		display: block;
+		border: solid 1px #bcc2d1;
+		background: $gray-lighter;
+		padding: 8px 1em;
+	}
+
+	&:hover {
+		@include transition(background .25s ease-out);
+		color: #858891;
+
+		span { background: $white; }
+	}
+
+	&:active,
+	&.active {
+		color: lighten(#858891,20%);
+		span {
+			@include box-shadow(inset 0 1px 1px rgba(0,0,0,.25));
+			background: darken($white, 5%);
+		}
+	}
+}
