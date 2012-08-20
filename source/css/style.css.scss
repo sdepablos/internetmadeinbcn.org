@@ -188,6 +188,7 @@ img { max-width: 100%; }
 
 .company {
 	@include trailing-border(1px, 0);
+	position: relative;
 	width: 25%;
 	height: 320px;
 	padding: 1em;
@@ -218,6 +219,13 @@ img { max-width: 100%; }
 		border-right: none;
 	}
 
+}
+
+.jobs {
+	position: absolute;
+	top: 0;
+	right: 1em;
+	z-index: 2;
 }
 
 // =============================================================================

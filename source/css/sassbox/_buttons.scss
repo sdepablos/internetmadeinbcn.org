@@ -41,3 +41,20 @@
 		}
 	}
 }
+
+.btn.btn--mini {
+	@extend .nano;
+	padding: 1px;
+	span {
+		padding: 1px .5em;
+	}
+}
+
+.btn.btn--faded {
+	@include opacity(.5);
+	@include transition(opacity .15s ease-in);
+
+	&:hover {
+		@include opacity(1);
+	}
+}

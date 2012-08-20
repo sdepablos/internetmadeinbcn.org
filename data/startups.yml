@@ -6,29 +6,34 @@
 -
   name: Trovit
   url: http://www.trovit.com
+  jobs: http://about.trovit.es/jobs/
   description: "el Buscador de anuncios clasificado de empleo, pisos, coche, …"
   slug: trovit
   jobs: http://about.trovit.com/jobs/
 -
   name: Offerum
   url: http://www.offerum.com
+  jobs: http://empleo.offerum.com/
   description: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
   slug: offerum
   jobs: http://empleo.offerum.com/
 -
   name: Softonic
   url: http://www.softonic.com
+  jobs: http://softonic.asp.infojobs.net/home/index.xhtml
   description: "Todos los programas a un solo clic"
   slug: softonic
   jobs: http://softonic.asp.infojobs.net/home/index.xhtml
 -
   name: Letsbonus
   url: http://www.letsbonus.com
+  jobs: http://es.letsbonus.com/work-with-us
   description: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
   slug: letsbonus
 -
   name: Emagister
   url: http://www.emagister.com
+  jobs: http://www.infojobs.net/gen/multisite-ij.xhtml/iCodigoPerfil=966351524526202650353214954944
   description: "Te ayudamos a encontrar tu formación ideal"
   slug: emagister
 -
@@ -39,6 +44,7 @@
 -
   name: SocialPoint
   url: http://www.socialpoint.es
+  jobs: http://www.socialpoint.es/jobs/
   description: "Los mejores juegos sociales para Facebook y móviles"
   slug: socialpoint
 #-
