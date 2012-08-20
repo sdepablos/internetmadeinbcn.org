@@ -1,0 +1,14 @@
+---
+cat:
+  wufoo_form_id: "z7x3p9"
+  mission: "Directori de startups de base tecnològica desenvolupades des de Barcelona i per al món."
+  intro: "Barcelona s'ha convertit en un hub de la innovació. Aquest llistat no pretén més que ser un testimoni d'aquesta realitat."
+  add_yours: "Afegeix la teva"
+  conditions_question: "¿Qué condiciones debe cumplir mi web?"
+  conditions_answer: "Tiene que haber sido desarrolada en Barcelona al menos en un 50% y debe tener un tráfico mínimo de 5.000 visitas al mes."
+  foreign_code_question: "Mi compañía es de Barcelona pero el código se ha escrito fuera."
+  foreign_code_answer: "No puede aparecer aquí. Para eso existen miles de otros directorios."
+  traffic_question: "¿Cómo demuestro que tengo más de 5.000 visitas al mes?"
+  traffic_answer: "De momento nos fiamos de tu palabra. ¡No hagas trampas! ;)"
+  more_info_and_contact: "Més informació i contacte"
+  creators_are: "Darrere d'Internet Made in BCN hi ha"
