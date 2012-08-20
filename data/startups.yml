@@ -41,8 +41,8 @@
   url: http://www.socialpoint.es
   description: "Los mejores juegos sociales para Facebook y móviles"
   slug: socialpoint
--
-  name: Social Car
-  url: http://www.socialcar.com
-  description: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
-  slug: socialcar
+#-
+#  name: Social Car
+#  url: http://www.socialcar.com
+#  description: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
+#  slug: socialcar
