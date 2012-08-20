@@ -32,7 +32,7 @@
           %span.logo__madeinbcn Made in BCN
         %h1.mission&=I18n.t(:mission)
         %p.intro&=I18n.t(:intro)
-        %a{ :href => I18n.locale.to_s === 'es' ? 'cat' : '/' } #{I18n.locale.to_s === 'es' ? 'CAT' : 'ES'}
+        %a.language-switch{ :href => I18n.locale.to_s === 'es' ? 'ca' : '/' } #{I18n.locale.to_s === 'es' ? 'CAT' : 'ES'}
 
       %section.join
         .apply-toggle

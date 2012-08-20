@@ -103,7 +103,12 @@ img { max-width: 100%; }
 	color: $gray;
 	padding-left: 3em;
 	padding-right: 3em;
+}
 
+.language-switch {
+	position: absolute;
+	right: 2em;
+	top: 1em;
 }
 
 // =============================================================================
