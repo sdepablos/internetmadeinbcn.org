@@ -1,103 +1,48 @@
-!!! 5
+- content_for(:page_title, 'Startups Barcelona')
+- content_for(:meta_description, I18n.t(:mission))
+- content_for(:page_foot_additions) do
+  :javascript
+    (function(d, t) {
+    var s = d.createElement(t), options = {
+    'userName':'internetmadeinbcn',
+    'formHash': wufoo_form_id,
+    'autoResize':true,
+    'height':'440',
+    'async':true,
+    'header':'show'};
+    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+    s.onload = s.onreadystatechange = function() {
+    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+    try { wufoo_form_id = new WufooForm();wufoo_form_id.initialize(options);wufoo_form_id.display(); } catch (e) {}};
+    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+    })(document, 'script');
 
-/[if lt IE 7]<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
-/[if IE 7]<html class="no-js lt-ie9 lt-ie8" lang="en">
-/[if IE 8]<html class="no-js lt-ie9" lang="en">
-<!--[if gt IE 8]><!-->
-%html.no-js{ :lang => I18n.locale.to_s }
-  <!--<![endif]-->
+%section.join
+  .apply-toggle
+    %a.btn.btn--join.js-btn-join{ :href => '#' }
+      %span&="+ " + I18n.t(:add_yours)
 
-  %head
+  .apply.cf
+    .apply-rules.cf
+      %article
+        %h3&="1. " + I18n.t(:conditions_question)
+        %p&=I18n.t(:conditions_answer)
+      %article
+        %h3&="2. " + I18n.t(:foreign_code_question)
+        %p&=I18n.t(:foreign_code_answer)
+      %article
+        %h3&="3. " + I18n.t(:traffic_question)
+        %p&=I18n.t(:traffic_answer)
+    .apply-form
+      %div{ :id => "wufoo-" + I18n.t(:wufoo_form_id) }
 
-    %meta{ :charset => 'utf-8'}
-    %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1' }
-
-    %title Internet Made in BCN
-    %meta{ :name => 'description', :content => I18n.t(:mission) }
-
-    %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale = 1' }
-
-    %link{ :rel => "shortcut icon", :href => "/img/favicon.ico", :type => "image/x-icon" }
-    %link{ :rel => 'stylesheet', :href => '/css/style.css' }
-
-    %script{ :src => '/js/vendor/modernizr-2.6.1.min.js' }
-    %script{ :src => '//use.typekit.net/hta7jps.js' }
-    %script try{Typekit.load();}catch(e){}
-
-  %body
-    .wrapper
-      %header.masthead
-        %a.logo{ :href => 'http://internetmadeinbcn.org' }
-          %span.logo__internet Internet
-          %span.logo__madeinbcn Made in BCN
-        %h1.mission&=I18n.t(:mission)
-        %p.intro&=I18n.t(:intro)
-        %a.language-switch{ :href => I18n.locale.to_s === 'es' ? 'ca' : '/' } #{I18n.locale.to_s === 'es' ? 'CAT' : 'ES'}
-
-      %section.join
-        .apply-toggle
-          %a.btn.btn--join.js-btn-join{ :href => '#' }
-            %span&="+ " + I18n.t(:add_yours)
-
-        .apply.cf
-          .apply-rules.cf
-            %article
-              %h3&="1. " + I18n.t(:conditions_question)
-              %p&=I18n.t(:conditions_answer)
-            %article
-              %h3&="2. " + I18n.t(:foreign_code_question)
-              %p&=I18n.t(:foreign_code_answer)
-            %article
-              %h3&="3. " + I18n.t(:traffic_question)
-              %p&=I18n.t(:traffic_answer)
-          .apply-form
-            %div{ :id => "wufoo-" + I18n.t(:wufoo_form_id) }
-
-      %ol.startups.cf
-        -data.startups.each do |startup|
-          %li.company
-            - if startup.has_key?('jobs')
-              %a.jobs.btn.btn--mini.btn--faded{ :href => startup.jobs, 'title' => startup.name + ' ' + I18n.t(:jobs) }
-                %span #{ I18n.t(:jobs) }
-            %a{ :href => startup.url, 'title' => startup.name + ' ' + startup.description }
-              =image_tag 'logos/'+startup.slug.downcase+'.png', :alt => startup.name, :width => '150', :height => '150'
-              %h2.name.delta&= startup.name
-              %p.description.milli&= startup.description
-
-      %footer.cf
-        .logo-symbol
-        .more-info.milli
-          %strong&=I18n.t(:more_info_and_contact)
-          %a{ :href => "mailto:hola@internetmadeinbcn.org"} hola@internetmadeinbcn.org
-        .more-info.milli
-          %strong&=I18n.t(:creators_are)
-          %ul.nav
-            -data.creators.each do |creator|
-              %li.creator
-                %a{ :href => creator.url }&= creator.twitter
-
-    %script{ :src => '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js' }
-    %script window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.0.min.js"><\/script>')
-    %script{ :src => '/js/script.js' }
-    %script="var wufoo_form_id = '"+I18n.t(:wufoo_form_id)+"';"
-    :javascript
-        (function(d, t) {
-        var s = d.createElement(t), options = {
-        'userName':'internetmadeinbcn',
-        'formHash': wufoo_form_id,
-        'autoResize':true,
-        'height':'440',
-        'async':true,
-        'header':'show'};
-        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-        s.onload = s.onreadystatechange = function() {
-        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-        try { wufoo_form_id = new WufooForm();wufoo_form_id.initialize(options);wufoo_form_id.display(); } catch (e) {}};
-        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-        })(document, 'script');
-
-    :javascript
-      var _gaq=[['_setAccount','UA-34161676-1'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
+%ol.startups.cf
+  -data.startups.each do |startup|
+    %li.company
+      - if startup.has_key?('jobs')
+        %a.jobs.btn.btn--mini.btn--faded{ :href => startup.jobs, 'title' => startup.name + ' ' + I18n.t(:jobs) }
+          %span #{ I18n.t(:jobs) }
+      %a{ :href => startup.url, 'title' => startup.name + ' ' + startup.description }
+        =image_tag 'logos/'+startup.slug.downcase+'.png', :alt => startup.name, :width => '150', :height => '150'
+        %h2.name.delta&= startup.name
+        %p.description.milli&= startup.description

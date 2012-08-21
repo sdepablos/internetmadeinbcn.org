@@ -1,0 +1,67 @@
+!!! 5
+
+/[if lt IE 7]<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7]<html class="no-js lt-ie9 lt-ie8" lang="en">
+/[if IE 8]<html class="no-js lt-ie9" lang="en">
+<!--[if gt IE 8]><!-->
+%html.no-js{ :lang => I18n.locale.to_s }
+  <!--<![endif]-->
+
+  %head
+
+    %meta{ :charset => 'utf-8'}
+    %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1' }
+
+    %title= content_for?(:page_title) ? 'Internet Made In BCN - ' + yield_content(:page_title) : 'Internet Made in BCN'
+    %meta{ :name => 'description', :content => yield_content(:meta_description) }
+
+    %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale = 1' }
+
+    %link{ :rel => "shortcut icon", :href => "/img/favicon.ico", :type => "image/x-icon" }
+    %link{ :rel => 'stylesheet', :href => '/css/style.css' }
+
+    %script{ :src => '/js/vendor/modernizr-2.6.1.min.js' }
+    %script{ :src => '//use.typekit.net/hta7jps.js' }
+    %script try{Typekit.load();}catch(e){}
+
+    -# Addition HEAD stuff for your page (CSS, JS, Meta)
+    = yield_content(:page_head_additions)
+
+  %body
+    .wrapper
+
+      %header.masthead
+        %a.logo{ :href => 'http://internetmadeinbcn.org' }
+        %span.logo__internet Internet
+        %span.logo__madeinbcn Made in BCN
+        %h1.mission&=I18n.t(:mission)
+        %p.intro&=I18n.t(:intro)
+        %a.language-switch{ :href => I18n.locale.to_s === 'es' ? 'ca' : '/' } #{I18n.locale.to_s === 'es' ? 'CAT' : 'ES'}
+
+      = yield
+
+      %footer.cf
+        .logo-symbol
+        .more-info.milli
+          %strong&=I18n.t(:more_info_and_contact)
+          %a{ :href => "mailto:hola@internetmadeinbcn.org"} hola@internetmadeinbcn.org
+        .more-info.milli
+          %strong&=I18n.t(:creators_are)
+          %ul.nav
+            -data.creators.each do |creator|
+              %li.creator
+                %a{ :href => creator.url }&= creator.twitter
+
+    %script{ :src => '//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js' }
+    %script window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.0.min.js"><\/script>')
+    %script{ :src => '/js/script.js' }
+    %script="var wufoo_form_id = '"+I18n.t(:wufoo_form_id)+"';"
+
+    -# Addition Footer stuff for your page (Usually, page-specific JS)
+    = yield_content(:page_foot_additions)
+
+    :javascript
+      var _gaq=[['_setAccount','UA-34161676-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
