@@ -1,54 +1,72 @@
 -
   name: Ulabox
   url: https://www.ulabox.com
-  description: "El supermercado online con entrega en 24h"
+  description:
+    es: "El supermercado online con entrega en 24h"
+    ca: "El supermercat online amb entrega en 24h"
   slug: ulabox
 -
   name: Trovit
   url: http://www.trovit.com
   jobs: http://about.trovit.es/jobs/
-  description: "el Buscador de anuncios clasificado de empleo, pisos, coche, …"
+  description:
+    es: "el buscador de anuncios clasificado de empleo, pisos, coche, …"
+    ca: "el cercador d'anuncis classificats de feina, pisos, cotxe, …"
   slug: trovit
   jobs: http://about.trovit.com/jobs/
 -
   name: Offerum
   url: http://www.offerum.com
   jobs: http://empleo.offerum.com/
-  description: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
+  description:
+    es: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
+    ca: "Ofertes i dtes. en bellesa, restaurants, oci, viatges i escapades"
   slug: offerum
   jobs: http://empleo.offerum.com/
 -
   name: Softonic
   url: http://www.softonic.com
   jobs: http://softonic.asp.infojobs.net/home/index.xhtml
-  description: "Todos los programas a un solo clic"
+  description:
+    es: "Todos los programas a un solo clic"
+    ca: "Tots els programes a un sol clic"
   slug: softonic
   jobs: http://softonic.asp.infojobs.net/home/index.xhtml
 -
   name: Letsbonus
   url: http://www.letsbonus.com
   jobs: http://es.letsbonus.com/work-with-us
-  description: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
+  description:
+    es: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
+    ca: "Ofertes i dtes. en bellesa, restaurants, oci, viatges i escapades"
   slug: letsbonus
 -
   name: Emagister
   url: http://www.emagister.com
   jobs: http://www.infojobs.net/gen/multisite-ij.xhtml/iCodigoPerfil=966351524526202650353214954944
-  description: "Te ayudamos a encontrar tu formación ideal"
+  description:
+    es: "Te ayudamos a encontrar tu formación ideal"
+    ca: "T'ajudem a torbar la teva formació ideal"
   slug: emagister
 -
   name: Uncomo
   url: http://www.uncomo.com
-  description: "Soluciones prácticas a problemas cotidianos. El how-to español"
+  description:
+    es: "Soluciones prácticas a problemas cotidianos. El how-to español"
+    ca: "Solucions pràctiques a problemes quotidians. El how-to espanyol"
   slug: uncomo
 -
   name: SocialPoint
   url: http://www.socialpoint.es
   jobs: http://www.socialpoint.es/jobs/
-  description: "Los mejores juegos sociales para Facebook y móviles"
+  description:
+    es: "Los mejores juegos sociales para Facebook y móviles"
+    ca: "Els millors jocs socials per a Facebook i mòbils"
   slug: socialpoint
 #-
 #  name: Social Car
 #  url: http://www.socialcar.com
-#  description: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
+#  description:
+#    es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
+#    ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
 #  slug: socialcar

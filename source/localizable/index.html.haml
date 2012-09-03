@@ -37,12 +37,13 @@
       %div{ :id => "wufoo-" + I18n.t(:wufoo_form_id) }
 
 %ol.startups.cf
+  -locale = I18n.locale.to_s
   -data.startups.each do |startup|
     %li.company
       - if startup.has_key?('jobs')
         %a.jobs.btn.btn--mini.btn--faded{ :href => startup.jobs, 'title' => startup.name + ' ' + I18n.t(:jobs) }
           %span #{ I18n.t(:jobs) }
-      %a{ :href => startup.url, 'title' => startup.name + ' ' + startup.description }
+      %a{ :href => startup.url, 'title' => startup.name + ' ' + startup.description[locale] }
         =image_tag 'logos/'+startup.slug.downcase+'.png', :alt => startup.name, :width => '150', :height => '150'
         %h2.name.delta&= startup.name
-        %p.description.milli&= startup.description
+        %p.description.milli&= startup.description[locale]
