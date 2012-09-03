@@ -3,15 +3,15 @@
   url: https://www.ulabox.com
   description:
     es: "El supermercado online con entrega en 24h"
-    ca: "El supermercat online amb entrega en 24h"
+    ca: "El supermercat online amb lliurament en 24h"
   slug: ulabox
 -
   name: Trovit
   url: http://www.trovit.com
   jobs: http://about.trovit.es/jobs/
   description:
-    es: "el buscador de anuncios clasificado de empleo, pisos, coche, …"
-    ca: "el cercador d'anuncis classificats de feina, pisos, cotxe, …"
+    es: "el buscador de anuncios clasificado de empleo, pisos, coches, …"
+    ca: "el cercador d'anuncis classificats de feina, pisos, cotxes, …"
   slug: trovit
   jobs: http://about.trovit.com/jobs/
 -
@@ -46,7 +46,7 @@
   jobs: http://www.infojobs.net/gen/multisite-ij.xhtml/iCodigoPerfil=966351524526202650353214954944
   description:
     es: "Te ayudamos a encontrar tu formación ideal"
-    ca: "T'ajudem a torbar la teva formació ideal"
+    ca: "T'ajudem a trobar la teva formació ideal"
   slug: emagister
 -
   name: Uncomo
