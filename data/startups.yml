@@ -173,3 +173,10 @@
     es: "Portal de venta online de videojuegos a través de descargas legales"
     ca: "Portal de venda online de videojocs a través de descàrregues legals"
   slug: tusjuegos
+-
+  name: Social-Buy.com
+  url: http://www.social-buy.com
+  description:
+    es: "Soluciones de Social Commerce para rentabilizar tu activo digital"
+    ca: "Solucions de Social Commerce per rendibilitzar els teus actiu digital"
+  slug: socialbuy
