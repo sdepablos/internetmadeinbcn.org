@@ -85,3 +85,52 @@
     es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
     ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
   slug: socialcar
+#-
+#  name: TusJuegos.com
+#  url: http://tusjuegos.com
+#  description:
+#    es: "Tu tienda de descargas para comprar Juegos digitales para PC y Mac"
+#    ca: "La teva botiga de descargues per comprar jocs digitals per PC i Mac"
+#  slug: tusjuegos
+-
+  name: NiceTales
+  url: http://www.nicetales.com
+  description:
+    es: "Aplicación de cuentos infantiles para iPad junto con plataforma web"
+    ca: "Aplicació de contes infantils per a iPad juntament amb plataforma web"
+  slug: nicetales
+-
+  name: Wuaki.tv
+  url: http://www.wuaki.tv
+  description:
+    es: "Videoclub online con las mejores películas y las mejores series de TV"
+    ca: "Videoclub online amb les millors pel·lícules i les millors sèries de TV"
+  slug: wuakitv
+-
+  name: Easypromos
+  url: http://www.easypromosapp.com
+  description:
+    es: "Crea tus propias promociones y concursos en Facebook"
+    ca: "Crea les teves promocions i concursos a Facebook"
+  slug: easypromos
+-
+  name: Ipsojobs
+  url: http://www.ipsojobs.com
+  description:
+    es: "La manera más rápida y fácil de encontrar trabajo o cubrir una vacante"
+    ca: "La manera més ràpida i fàcil de trobar feina o cobrir una vacant"
+  slug: ipsojobs
+-
+  name: Zyncro
+  url: http://www.zyncro.com
+  description:
+    es: "Zynco es tu Red Social Corporativa"
+    ca: "Zynco es la teva Xarxa Social Corporativa"
+  slug: zyncro
+#-
+#  name: Aladinia
+#  url: http://www.aladinia.com
+#  description:
+#    es: "Regalos experiencia online"
+#    ca: "Regals experiència online"
+#  slug: aladinia
