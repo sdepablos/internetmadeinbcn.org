@@ -8,6 +8,7 @@
 // 3. Masthead
 // 4. Join us
 // 5. Companies
+// 6. Footer
 //
 // =============================================================================
 
@@ -40,14 +41,14 @@ img { max-width: 100%; }
 	// Makes the wrapper 90% width on tablets and up
 	@include respond-to-tablet-portrait-and-up { width: 90%; }
 
-	// Adds padding and removes the leader on mobile
+	// Adds padding and removes the leader on Mobile
 	@include respond-to-mobile-only {
 		@include leader(0);
 		padding-left: 1em;
 		padding-right: 1em;
 	}
 
-	// Smoother scrolling in webkit browsers enabling GPU accelarion
+	// Smoother scrolling in webkit browsers enabling GPU acceleration
 	 -webkit-transform: translate3d(0, 0, 0);
 }
 
@@ -92,23 +93,21 @@ img { max-width: 100%; }
 	}
 }
 
-.logo__madeinbcn { display: block; }
+.logo__internet { display: block; }
 
-.mission {
-	@include leader(1);
-}
+.mission { @include leader(1); }
 
 .intro {
 	@include leader(2);
-	color: $gray;
 	padding-left: 3em;
 	padding-right: 3em;
+	color: $gray;
 }
 
 .language-switch {
 	position: absolute;
-	right: 2em;
 	top: 1em;
+	right: 2em;
 }
 
 // =============================================================================
@@ -148,7 +147,7 @@ img { max-width: 100%; }
 			padding-right: 1em;
 			float: left;
 
-			// Make every article span full width on mobile
+			// Make every article span full width on Mobile
 			@include respond-to-mobile-only {
 				max-width: none;
 				padding-right: 0;
@@ -170,7 +169,7 @@ img { max-width: 100%; }
 	float: left;
 	background: #505666;
 
-	// Spans the full width on tablet and mobile devices
+	// Spans the full width on Tablet and Mobile devices
 	@include respond-to-tablet-portrait-and-below { width: 100%; }
 }
 
@@ -213,7 +212,7 @@ img { max-width: 100%; }
 		&:nth-child(3n+0) { border-right: none; }
 	}
 
-	// A single company per row on mobile
+	// A single company per row on Mobile
 	@include respond-to-mobile-only {
 		width: 100%;
 		border-right: none;
@@ -233,12 +232,14 @@ img { max-width: 100%; }
 // =============================================================================
 
 .more-info {
+
+	// More info blocks don't float on Tablets and Mobile
+	@include respond-to-tablet-portrait-and-below { float: none; }
+
 	padding: 1em 2em;
 	float: right;
 
 	strong { display: block; }
-
-	@include respond-to-tablet-portrait-and-below { float: none; }
 
 }
 
