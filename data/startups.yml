@@ -127,10 +127,31 @@
     es: "Zynco es tu Red Social Corporativa"
     ca: "Zynco es la teva Xarxa Social Corporativa"
   slug: zyncro
-#-
-#  name: Aladinia
-#  url: http://www.aladinia.com
-#  description:
-#    es: "Regalos experiencia online"
-#    ca: "Regals experiència online"
-#  slug: aladinia
+-
+  name: TuManitas
+  url: http://www.tumanitas.com
+  description:
+    es: "Presupuesto para tu obra, reforma de vivienda o reparación"
+    ca: "Pressupost per la teva obra, reforma d'habitatge o reparació"
+  slug: tumanitas
+-
+  name: persona/
+  url: http://www.perso.na
+  description:
+    es: "Show what you really love"
+    ca: "Show what you really love"
+  slug: persona
+-
+  name: Akamon Entertainment Ltd
+  url: http://akamon.com
+  description:
+    es: "Juegos sociales tradicionales online con portales como Mundijuegos.com"
+    ca: "Jocs socials tradicional online amb portals com Mundijuegos.com"
+  slug: akamon
+-
+  name: Aladinia
+  url: http://www.aladinia.com
+  description:
+    es: "Regalos experiencia online"
+    ca: "Regals experiència online"
+  slug: aladinia
