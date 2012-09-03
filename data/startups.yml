@@ -180,3 +180,24 @@
     es: "Soluciones de Social Commerce para rentabilizar tu activo digital"
     ca: "Solucions de Social Commerce per rendibilitzar els teus actiu digital"
   slug: socialbuy
+-
+  name: Una Boda Original
+  url: http://www.unabodaoriginal.es
+  description:
+    es: "Tienda online de productos originales para el día de tu boda"
+    ca: "Botiga online de productes originals pel dia del teu casament"
+  slug: unabodaoriginal
+-
+  name: Overlapps
+  url: http://www.overlapps.com
+  description:
+    es: "Descubre las mejores aplicaciones de la forma más simple y fascinante."
+    ca: "Descobreix les millors aplicacions de la forma més simple i fascinant."
+  slug: overlapps
+-
+  name: Ducksboard
+  url: http://www.ducksboard.com
+  description:
+    es: "Visualiza tus métricas de negocio actualizadas en tiempo real."
+    ca: "Visualitza les teves mètriques de negoci actualitzades en temps real."
+  slug: ducksboard
