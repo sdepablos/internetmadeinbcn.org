@@ -166,3 +166,10 @@
     ca: "Entrades, restaurants, activitats, vols, hotels, viatjes, creuers"
   slug: atrapalo
   jobs: http://atrapalo.cvtools.com/jefam/trabajar-en-atrapalo/es/microsite-1024
+-
+  name: TusJuegos
+  url: http://tusjuegos.com
+  description:
+    es: "Portal de venta online de videojuegos a través de descargas legales"
+    ca: "Portal de venda online de videojocs a través de descàrregues legals"
+  slug: tusjuegos
