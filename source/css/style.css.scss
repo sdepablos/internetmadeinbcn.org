@@ -58,7 +58,7 @@ img { max-width: 100%; }
 
 .masthead {
 	@include rhythm($padding-leader: 2, $padding-trailer: 2);
-	max-width: 40em;
+	max-width: 42em;
 	margin: 0 auto;
 	text-align: center;
 }
