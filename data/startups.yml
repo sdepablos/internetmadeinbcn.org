@@ -10,7 +10,7 @@
   url: http://www.trovit.com
   jobs: http://about.trovit.es/jobs/
   description:
-    es: "el buscador de anuncios clasificado de empleo, pisos, coches, …"
+    es: "el buscador de anuncios clasificados de empleo, pisos, coches, …"
     ca: "el cercador d'anuncis classificats de feina, pisos, cotxes, …"
   slug: trovit
   jobs: http://about.trovit.com/jobs/
@@ -85,13 +85,6 @@
     es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
     ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
   slug: socialcar
-#-
-#  name: TusJuegos.com
-#  url: http://tusjuegos.com
-#  description:
-#    es: "Tu tienda de descargas para comprar Juegos digitales para PC y Mac"
-#    ca: "La teva botiga de descargues per comprar jocs digitals per PC i Mac"
-#  slug: tusjuegos
 -
   name: NiceTales
   url: http://www.nicetales.com
