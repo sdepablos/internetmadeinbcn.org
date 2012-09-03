@@ -63,10 +63,25 @@
     es: "Los mejores juegos sociales para Facebook y móviles"
     ca: "Els millors jocs socials per a Facebook i mòbils"
   slug: socialpoint
-#-
-#  name: Social Car
-#  url: http://www.socialcar.com
-#  description:
-#    es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
-#    ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
-#  slug: socialcar
+-
+  name: Itnig
+  url: http://itnig.net/
+  description:
+    es: "Aceleradora de startups de internet"
+    ca: "Acceleradora de startups d'internet"
+  slug: itnig
+-
+  name: Camaloon
+  url:  http://camaloon.com/
+  description:
+    es: "Tienda online de productos personalizados"
+    ca: "Botiga online de producte personalitzats"
+  slug: camaloon
+
+-
+  name: Social Car
+  url: http://www.socialcar.com
+  description:
+    es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
+    ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
+  slug: socialcar
