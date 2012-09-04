@@ -254,3 +254,17 @@
     es: "Club privado de experiencias y productos gastronómicos"
     ca: "Club privat d'experiències i productes gastronòmics"
   slug: sibaritus
+-
+  name: ByHours.com
+  url: http://www.byhours.com
+  description:
+    es: "La primera web de reserva de habitaciones de hotel por packs de horas"
+    ca: "La primera web de reserva d'habitacions d'hotel per packs d'hores"
+  slug: byhours
+-
+  name: nubelo
+  url: http://www.nubelo.com
+  description:
+    es: "Contrata online. Trabaja online. Plataforma líder de teletrabajo"
+    ca: "Contracta en línia. Treballa en línia. Plataforma líder de teletreball"
+  slug: nubelo
