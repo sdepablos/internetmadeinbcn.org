@@ -195,3 +195,62 @@
     es: "Visualiza tus métricas de negocio actualizadas en tiempo real."
     ca: "Visualitza les teves mètriques de negoci actualitzades en temps real."
   slug: ducksboard
+-
+  name: Gramposters
+  url: http://www.gramposters.com
+  description:
+    es: "Compra online fotografía y arte gráfico limitado a precios asequibles"
+    ca: "Compra online fotografia i art gràfic limitat a preus assequibles"
+  slug: gramposters
+-
+  name: EscapadaRural.com
+  url: http://www.escapadarural.com
+  jobs: http://www.escapadarural.com/empleo
+  description:
+    es: "Portal de turismo rural con más de 12.000 alojamientos registrados"
+    ca: "Portal de turisme rural amb més de 12.000 allotjaments registrats"
+  slug: escapadarural
+-
+  name: Doctoralia
+  url: http://www.doctoralia.com
+  jobs: http://www.doctoralia.com/jobs.aspx
+  description:
+    es: "The global platform for doctor's appointment"
+    ca: "The global platform for doctor's appointment"
+  slug: doctoralia
+-
+  name: ADmira
+  url: http://admira.co
+  jobs: http://admira.co/ES/empleo/
+  description:
+    es: "Software para la gestión/emisión de contenidos para Digital Signage"
+    ca: "Software per a la gestió/emissió de continguts per Digital Signage"
+  slug: admira
+-
+  name: Captio
+  url: http://www.captio.net
+  description:
+    es: "Captura tickets de compra con tu móvil y genera informes de gastos"
+    ca: "Captura tickets de compra amb el teu mòbil i genera informes de despeses"
+  slug: captio
+-
+  name: Food2u
+  url: http://www.food2u.es
+  description:
+    es: "Food2u es la app para pedir comida a domicilio sin necesidad de llamar"
+    ca: "Food2u es la app para demanar menjar a domicili sense necessitat de trucar"
+  slug: food2u
+-
+  name: JobisJob
+  url: http://www.jobisjob.co.uk
+  description:
+    es: "Agregador de empleo en 22 países - TOP10 de portales de empleo en UK"
+    ca: "Agregador d'ocupació en 22 països - TOP10 de portals d'ocupació a UK"
+  slug: jobisjob
+-
+  name: Sibarit.us
+  url: http://www.sibarit.us
+  description:
+    es: "Club privado de experiencias y productos gastronómicos"
+    ca: "Club privat d'experiències i productes gastronòmics"
+  slug: sibaritus
