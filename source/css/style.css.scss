@@ -61,6 +61,12 @@ img { max-width: 100%; }
 	max-width: 42em;
 	margin: 0 auto;
 	text-align: center;
+
+	.twitter {
+		position: absolute;
+		top: 3.5em;
+		right: 2em;
+	}
 }
 
 .logo {
@@ -108,6 +114,24 @@ img { max-width: 100%; }
 	position: absolute;
 	top: 1em;
 	right: 2em;
+}
+
+.twitter {
+	margin: 0;
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-image: image-url('twitter-icon.png');
+	@include respond-to-retina {
+		background-image: image-url('twitter-icon@2x.png');
+		background-size: 24px 48px;
+	}
+
+	&:hover,
+	&:active {
+		background-position: 0 -24px;
+	}
+
 }
 
 // =============================================================================
