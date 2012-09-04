@@ -23,7 +23,7 @@
       %span&="+ " + I18n.t(:add_yours)
 
   .apply.cf
-    .apply-rules.cf
+    .apply__rules.cf
       %article
         %h3&="1. " + I18n.t(:conditions_question)
         %p&=I18n.t(:conditions_answer)
@@ -33,16 +33,16 @@
       %article
         %h3&="3. " + I18n.t(:traffic_question)
         %p&=I18n.t(:traffic_answer)
-    .apply-form
+    .apply__form
       %div{ :id => "wufoo-" + I18n.t(:wufoo_form_id) }
 
 %ol.startups.cf
   -data.startups.each do |startup|
-    %li.company
+    %li.startup
       - if startup.has_key?('jobs')
-        %a.jobs.btn.btn--mini.btn--faded{ :href => startup.jobs, 'title' => startup.name + ' ' + I18n.t(:jobs) }
+        %a.startup__jobs.btn.btn--mini.btn--faded{ :href => startup.jobs, 'title' => startup.name + ' ' + I18n.t(:jobs) }
           %span #{ I18n.t(:jobs) }
-      %a{ :href => startup.url, 'title' => startup.name + ' ' + startup.description[I18n.locale.to_s] }
+      %a{ :href => startup.url, :title => startup.name + ' ' + startup.description[I18n.locale.to_s] }
         =image_tag 'logos/'+startup.slug.downcase+'.png', :alt => startup.name, :width => '150', :height => '150'
-        %h2.name.delta&= startup.name
-        %p.description.milli&= startup.description[I18n.locale.to_s]
+        %h2.startup__name.delta&= startup.name
+        %p.startup__description.milli&= startup.description[I18n.locale.to_s]

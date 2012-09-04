@@ -4,11 +4,11 @@
 //
 // Table of contents:
 // 1. Imports
-// 2. Body & Wrapper
+// 2. Body, Wrapper & Footer
 // 3. Masthead
 // 4. Join us
 // 5. Companies
-// 6. Footer
+// 6. Global & UI elements
 //
 // =============================================================================
 
@@ -20,15 +20,13 @@
 @import "base";
 
 // =============================================================================
-// 2. Body & Wrapper
+// 2. Body, Wrapper & Footer
 // =============================================================================
 
 body {
 	@include respond-to-mobile-only { font-size: 80%; }
 	background: $gray-lighter;
 }
-
-img { max-width: 100%; }
 
 .wrapper {
 	@include leader(2);
@@ -52,21 +50,11 @@ img { max-width: 100%; }
 	 -webkit-transform: translate3d(0, 0, 0);
 }
 
-// =============================================================================
-// 2. Body & Wrapper
-// =============================================================================
-
 .masthead {
 	@include rhythm($padding-leader: 2, $padding-trailer: 2);
 	max-width: 42em;
 	margin: 0 auto;
 	text-align: center;
-
-	.twitter {
-		position: absolute;
-		top: 3.5em;
-		right: 2em;
-	}
 }
 
 .logo {
@@ -110,29 +98,37 @@ img { max-width: 100%; }
 	color: $gray;
 }
 
-.language-switch {
+.navigation {
 	position: absolute;
 	top: 1em;
 	right: 2em;
-}
 
-.twitter {
-	margin: 0;
-	display: block;
-	width: 24px;
-	height: 24px;
-	background-image: image-url('twitter-icon.png');
-	@include respond-to-retina {
-		background-image: image-url('twitter-icon@2x.png');
-		background-size: 24px 48px;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
 	}
 
-	&:hover,
-	&:active {
-		background-position: 0 -24px;
+	li {
+		margin-top: 1em;
+		&:first-child { margin-top: 0; }
 	}
+}
+
+.footer__block {
+
+	// More info blocks don't float on Tablets and Mobile
+	@include respond-to-tablet-portrait-and-below { float: none; }
+
+	padding: 1em 2em;
+	float: right;
+
+	strong { display: block; }
 
 }
+
+.creator { margin-right: 1em; }
 
 // =============================================================================
 // 3. Join us
@@ -158,7 +154,7 @@ img { max-width: 100%; }
 	text-align: center;
 }
 
-.apply-rules {
+.apply__rules {
 	width: 60%;
 	padding: 1em 2em;
 	float: left;
@@ -187,7 +183,7 @@ img { max-width: 100%; }
 	}
 }
 
-.apply-form {
+.apply__form {
 	width: 40%;
 	padding: 1em 2em;
 	float: left;
@@ -209,7 +205,7 @@ img { max-width: 100%; }
 	border-color: $line-color;
 }
 
-.company {
+.startup {
 	@include trailing-border(1px, 0);
 	position: relative;
 	width: 25%;
@@ -220,10 +216,6 @@ img { max-width: 100%; }
 	border-width: 1px;
 	border-color: $line-color;
 	border-right: solid 1px $line-color;
-
-	.name { text-transform: uppercase; }
-
-	.description { color: $gray-light; }
 
 	// Four companies per row on Desktop
 	@include respond-to-desktop-and-up {
@@ -244,7 +236,11 @@ img { max-width: 100%; }
 
 }
 
-.jobs {
+.startup__name { text-transform: uppercase; }
+
+.startup__description { color: $gray-light; }
+
+.startup__jobs {
 	position: absolute;
 	top: 0;
 	right: 1em;
@@ -252,22 +248,10 @@ img { max-width: 100%; }
 }
 
 // =============================================================================
-// 6. Footer
+// 6. Global & UI elements
 // =============================================================================
 
-.more-info {
-
-	// More info blocks don't float on Tablets and Mobile
-	@include respond-to-tablet-portrait-and-below { float: none; }
-
-	padding: 1em 2em;
-	float: right;
-
-	strong { display: block; }
-
-}
-
-.creator { margin-right: 1em; }
+img { max-width: 100%; }
 
 .nav {
 	list-style: none;
@@ -276,4 +260,22 @@ img { max-width: 100%; }
 
 	li { display: inline; }
 	a { display: inline-block; }
+}
+
+.twitter {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 0;
+	background-image: image-url('twitter-icon.png');
+
+	@include respond-to-retina {
+		background-image: image-url('twitter-icon@2x.png');
+		background-size: 24px 48px;
+	}
+
+	&:hover,
+	&:active {
+		background-position: 0 -24px;
+	}
 }
