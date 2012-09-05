@@ -48,6 +48,7 @@ body {
 
 	// Smoother scrolling in webkit browsers enabling GPU acceleration
 	 -webkit-transform: translate3d(0, 0, 0);
+
 }
 
 .masthead {
@@ -251,16 +252,8 @@ body {
 // 6. Global & UI elements
 // =============================================================================
 
+// Fluid images
 img { max-width: 100%; }
-
-.nav {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
-	li { display: inline; }
-	a { display: inline-block; }
-}
 
 .twitter {
 	display: block;
