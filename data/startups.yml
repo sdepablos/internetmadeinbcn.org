@@ -268,3 +268,17 @@
     es: "Contrata online. Trabaja online. Plataforma líder de teletrabajo"
     ca: "Contracta en línia. Treballa en línia. Plataforma líder de teletreball"
   slug: nubelo
+-
+  name: paraBebes.com
+  url: http://www.parabebes.com
+  description:
+    es: "Comparte la experiencia de ser padres"
+    ca: "Comparteix l'experiència de ser pares"
+  slug: parabebes
+-
+  name: Miscota
+  url: http://www.miscota.es
+  description:
+    es: "Tienda online dedicada a la venta de productos para mascotas"
+    ca: "Botiga online dedicada a la venda de productes per a mascotes"
+  slug: parabebes
