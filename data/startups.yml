@@ -281,4 +281,11 @@
   description:
     es: "Tienda online dedicada a la venta de productos para mascotas"
     ca: "Botiga online dedicada a la venda de productes per a mascotes"
-  slug: parabebes
+  slug: miscota
+-
+  name: Ruraldir
+  url: http://www.ruraldir.es
+  description:
+    es: "Tu escapada rural a un sólo click."
+    ca: "La teva escapada rural a un sol clic."
+  slug: ruraldir
