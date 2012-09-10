@@ -289,3 +289,10 @@
     es: "Tu escapada rural a un sólo click."
     ca: "La teva escapada rural a un sol clic."
   slug: ruraldir
+-
+  name: filmin
+  url: http://www.filmin.com
+  description:
+    es: "Portal de cine online"
+    ca: "Portal de cinema online"
+  slug: filmin
