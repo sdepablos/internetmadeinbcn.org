@@ -141,7 +141,7 @@ body {
 
 	// Dirty workaround to prevent jumpy and wrong height slideDown
 	//   @to-do: use a better solution without explicitly defined heights
-	@include respond-to-tablet-portrait-and-up { height: 920px; }
+	@include respond-to-tablet-portrait-and-up { height: 898px; }
 	@include respond-to-mobile-only { height: 1358px; }
 
 	// Collapse section
