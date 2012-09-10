@@ -44,6 +44,7 @@ body {
 		@include leader(0);
 		padding-left: 1em;
 		padding-right: 1em;
+		
 	}
 
 	// Smoother scrolling in webkit browsers enabling GPU acceleration
@@ -140,8 +141,8 @@ body {
 
 	// Dirty workaround to prevent jumpy and wrong height slideDown
 	//   @to-do: use a better solution without explicitly defined heights
-	@include respond-to-tablet-portrait-and-up { height: 650px; }
-	@include respond-to-mobile-only { height: 1100px; }
+	@include respond-to-tablet-portrait-and-up { height: 920px; }
+	@include respond-to-mobile-only { height: 1358px; }
 
 	// Collapse section
 	display: none;
