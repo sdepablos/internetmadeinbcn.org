@@ -296,3 +296,38 @@
     es: "Portal de cine online"
     ca: "Portal de cinema online"
   slug: filmin
+-
+  name: LaComunity
+  url: http://www.lacomunity.com
+  description:
+    es: "El primer club de alquiler de pisos. Descuentos en pisos de alquiler."
+    ca: "El primer club de lloguer de pisos. Descomptes en pisos de lloguer."
+  slug: lacomunity
+-
+  name: Surfpricer
+  url: http://www.surfpricer.com
+  description:
+    es: "La aplicación móvil para buscar los mejores precios y ahorrar comprando"
+    ca: "L’aplicació mòbil per cercar els millors preus i estalviar comprant"
+  slug: surfpricer
+-
+  name: SEOCOM.es
+  url: http://www.seocom.es
+  description:
+    es: "Agencia de Marketing On-line especializada en proyectos SEO"
+    ca: "Agència de Màrketing On-line especialitzada en projectes SEO"
+  slug: seocom
+-
+  name: VipGourmet.com
+  url: http://www.VipGourmet.com
+  description:
+    es: "Guia de Restaurantes"
+    ca: "Guia de Restaurants"
+  slug: vipgourmet
+-
+  name: Connecting The Dots
+  url: http://connectingthedots.es
+  description:
+    es: "Desarrollo de comercio electrónico a éxito: no vendes, no ganamos."
+    ca: "Desenvolupament de comerç electrònic a èxit: no vens, no guanyem."
+  slug: connectingthedots
