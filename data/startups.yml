@@ -373,3 +373,27 @@
     ca: "Desenvolupament de comerç electrònic a èxit: no vens, no guanyem."
     en: "E-commerce development with a focus on success: if you don't sell, we don't make money."
   slug: connectingthedots
+-
+  name: Onebox Ticket Management
+  url: http://www.oneboxtm.com
+  description:
+    es: "El primer sistema de distribución global de entradas (GTDS)"
+    ca: "El primer sistema de distribució global d'entrades (GTDS)"
+    en: "The first ticket distribution system (GTDS)"
+  slug: onebox
+-
+  name: Sportivic
+  url: http://www.sportivic.es
+  description:
+    es: "Comprar material deportivo online en la tienda para todos los deportes"
+    ca: "Comprar material esportiu online a la botiga per a tots els esports"
+    en: "Buy sports equipment and recommendations to practice any sport"
+  slug: sportivic
+-
+  name: Uvinum
+  url: http://www.uvinum.es
+  description:
+    es: "Comprar vino online y recomendaciones de venta de vinos"
+    ca: "Comprar vi online i recomanacions en venda de vins"
+    en: "Buy wine online and wine recommendations at the best price"
+  slug: uvinum
