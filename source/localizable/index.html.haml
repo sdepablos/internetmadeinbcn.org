@@ -36,9 +36,21 @@
     .apply__form
       %div.cf{ :id => "wufoo-" + I18n.t(:wufoo_form_id) }
 
-%ol.startups.cf
+%ul.nav
+  %li
+    %a.js-filter-clear{ :href => "#" } Clear
+  %li
+    %a.js-filter-all{ :href => "#" } All
+  %li
+    %a.js-filter-jobs{ :href => "#" } Jobs
+  %li
+    %a.js-sort-alphabetically{ :href => "#" } A-Z
+  %li
+    %a.js-sort-shuffle{ :href => "#" } Shuffle
+
+%ol.startups.cf.js-startups
   -data.startups.each do |startup|
-    %li.startup
+    %li.startup.js-startup{ :data => { :hasjobs => startup.has_key?('jobs').to_s } }
       - if startup.has_key?('jobs')
         %a.startup__jobs.btn.btn--mini.btn--faded{ :href => startup.jobs, 'title' => startup.name + ' ' + I18n.t(:jobs) }
           %span #{ I18n.t(:jobs) }
