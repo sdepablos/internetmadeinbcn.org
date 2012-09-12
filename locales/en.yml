@@ -1,0 +1,16 @@
+---
+en:
+  wufoo_form_id: "s7x1x7"
+  mission: "Tech startup directory: developed from Barcelona for the world."
+  intro: "Barcelona has become an innovation hub. This list is just a reflection of this reality."
+  add_yours: "Add your startup"
+  conditions_question: "What standards should my site meet to be on this list?"
+  conditions_answer: "It has to be developed in Barcelona, at least in 50%, and it should have a minimum traffic of 5,000 visits every month."
+  foreign_code_question: "My company is from Barcelona but the code was written somewhere else."
+  foreign_code_answer: "It can't be on this list. Don't worry, there are thousands of startup directories!"
+  traffic_question: "How should I prove I have over 5,000 visits every month?"
+  traffic_answer: "We trust your word. Don't cheat! ;)"
+  more_info_and_contact: "More information and contact"
+  creators_are: "Internet Made in BCN was created by:"
+  jobs: "Jobs"
+  follow_us_on_twitter: "Follow us on Twitter: @imadeinbcn"

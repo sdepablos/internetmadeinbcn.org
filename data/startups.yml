@@ -4,6 +4,7 @@
   description:
     es: "El supermercado online con entrega en 24h"
     ca: "El supermercat online amb lliurament en 24h"
+    en: "The online supermarket with deliveries within 24 hours"
   slug: ulabox
 -
   name: Trovit
@@ -12,8 +13,8 @@
   description:
     es: "el buscador de anuncios clasificados de empleo, pisos, coches, …"
     ca: "el cercador d'anuncis classificats de feina, pisos, cotxes, …"
+    en: "the search engine for classifieds: homes, cars, jobs, and more"
   slug: trovit
-  jobs: http://about.trovit.com/jobs/
 -
   name: Offerum
   url: http://www.offerum.com
@@ -21,8 +22,8 @@
   description:
     es: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
     ca: "Ofertes i dtes. en bellesa, restaurants, oci, viatges i escapades"
+    en: "Daily deals and discounts in beauty, restaurants, entertainment and travel"
   slug: offerum
-  jobs: http://empleo.offerum.com/
 -
   name: Softonic
   url: http://www.softonic.com
@@ -30,8 +31,8 @@
   description:
     es: "Todos los programas a un solo clic"
     ca: "Tots els programes a un sol clic"
+    en: "All software, one click away"
   slug: softonic
-  jobs: http://softonic.asp.infojobs.net/home/index.xhtml
 -
   name: Letsbonus
   url: http://www.letsbonus.com
@@ -39,6 +40,7 @@
   description:
     es: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
     ca: "Ofertes i dtes. en bellesa, restaurants, oci, viatges i escapades"
+    en: "Daily deals and discounts in beauty, restaurants, entertainment and travel"
   slug: letsbonus
 -
   name: Emagister
@@ -47,6 +49,7 @@
   description:
     es: "Te ayudamos a encontrar tu formación ideal"
     ca: "T'ajudem a trobar la teva formació ideal"
+    en: "We help you find your ideal training"
   slug: emagister
 -
   name: Uncomo
@@ -54,6 +57,7 @@
   description:
     es: "Soluciones prácticas a problemas cotidianos. El how-to español"
     ca: "Solucions pràctiques a problemes quotidians. El how-to espanyol"
+    en: "Practical solutions to common problems. The Spanish how-to"
   slug: uncomo
 -
   name: SocialPoint
@@ -62,6 +66,7 @@
   description:
     es: "Los mejores juegos sociales para Facebook y móviles"
     ca: "Els millors jocs socials per a Facebook i mòbils"
+    en: "The best social games for Facebook and mobile"
   slug: socialpoint
 -
   name: Itnig
@@ -70,6 +75,7 @@
   description:
     es: "Aceleradora de startups de internet"
     ca: "Acceleradora de startups d'internet"
+    en: "Internet startup accelerator"
   slug: itnig
 -
   name: Camaloon
@@ -77,6 +83,7 @@
   description:
     es: "Tienda online de productos personalizados"
     ca: "Botiga online de productes personalitzats"
+    en: "The online store for personalized products"
   slug: camaloon
 
 -
@@ -85,6 +92,7 @@
   description:
     es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
     ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
+    en: "Car rentals among individuals. Share a car with your neighbour."
   slug: socialcar
 -
   name: NiceTales
@@ -92,21 +100,24 @@
   description:
     es: "Aplicación de cuentos infantiles para iPad junto con plataforma web"
     ca: "Aplicació de contes infantils per a iPad juntament amb plataforma web"
+    en: "Childrens' stories iPad application and web platform"
   slug: nicetales
 -
   name: Wuaki.tv
   url: http://www.wuaki.tv
+  jobs: http://jobs.wuaki.tv
   description:
     es: "Videoclub online con las mejores películas y las mejores series de TV"
     ca: "Videoclub online amb les millors pel·lícules i les millors sèries de TV"
+    en: "Online video store with the best movies and TV series"
   slug: wuakitv
-  jobs: http://jobs.wuaki.tv
 -
   name: Easypromos
   url: http://www.easypromosapp.com
   description:
     es: "Crea tus propias promociones y concursos en Facebook"
     ca: "Crea les teves promocions i concursos a Facebook"
+    en: "Create your own Facebook promotions and competitions"
   slug: easypromos
 -
   name: Ipsojobs
@@ -114,6 +125,7 @@
   description:
     es: "La manera más rápida y fácil de encontrar trabajo o cubrir una vacante"
     ca: "La manera més ràpida i fàcil de trobar feina o cobrir una vacant"
+    en: "The quickest, easiest way to find a job or fill an opening"
   slug: ipsojobs
 -
   name: Zyncro
@@ -121,6 +133,7 @@
   description:
     es: "Zyncro es tu Red Social Corporativa"
     ca: "Zyncro es la teva Xarxa Social Corporativa"
+    en: "Zyncro is your Corporate Social Network"
   slug: zyncro
 -
   name: TuManitas
@@ -128,6 +141,7 @@
   description:
     es: "Presupuesto para tu obra, reforma de vivienda o reparación"
     ca: "Pressupost per la teva obra, reforma d'habitatge o reparació"
+    en: "Get a budget for your construction project, house remodel or repair"
   slug: tumanitas
 -
   name: persona/
@@ -135,37 +149,42 @@
   description:
     es: "Show what you really love"
     ca: "Show what you really love"
+    en: "Show what you really love"
   slug: persona
 -
   name: Akamon Entertainment Ltd
+  jobs: http://akamon.com/jobs/job-offers/
   url: http://akamon.com
   description:
     es: "Juegos sociales tradicionales online con portales como Mundijuegos.com"
     ca: "Jocs socials tradicional online amb portals com Mundijuegos.com"
+    en: "Traditional online social gaming, with portals such as Mundijuegos.com"
   slug: akamon
-  jobs: http://akamon.com/jobs/job-offers/
 -
   name: Aladinia
   url: http://www.aladinia.com
+  jobs: http://www.aladinia.com/trabajar-aladinia/
   description:
     es: "Regalos experiencia online"
     ca: "Regals experiència online"
+    en: "Give the gift of an experience online"
   slug: aladinia
-  jobs: http://www.aladinia.com/trabajar-aladinia/
 -
   name: Atrápalo
   url: http://www.atrapalo.com
+  jobs: http://atrapalo.cvtools.com/jefam/trabajar-en-atrapalo/es/microsite-1024
   description:
     es: "Entradas, restaurantes, actividades, vuelos, hoteles, viajes, cruceros"
     ca: "Entrades, restaurants, activitats, vols, hotels, viatjes, creuers"
+    en: "Tickets, restaurants, activities, flights, hotels, trips, cruises"
   slug: atrapalo
-  jobs: http://atrapalo.cvtools.com/jefam/trabajar-en-atrapalo/es/microsite-1024
 -
   name: TusJuegos
   url: http://tusjuegos.com
   description:
     es: "Portal de venta online de videojuegos a través de descargas legales"
     ca: "Portal de venda online de videojocs a través de descàrregues legals"
+    en: "Portal that allows legal downloading of videogames"
   slug: tusjuegos
 -
   name: Social-Buy.com
@@ -173,6 +192,7 @@
   description:
     es: "Soluciones de Social Commerce para rentabilizar tu activo digital"
     ca: "Solucions de Social Commerce per rendibilitzar els teus actiu digital"
+    en: "Social Commerce solucions to capitalize on your digital actives"
   slug: socialbuy
 -
   name: Una Boda Original
@@ -180,6 +200,7 @@
   description:
     es: "Tienda online de productos originales para el día de tu boda"
     ca: "Botiga online de productes originals pel dia del teu casament"
+    en: "Online store selling unique products for your wedding"
   slug: unabodaoriginal
 -
   name: Overlapps
@@ -187,6 +208,7 @@
   description:
     es: "Descubre las mejores aplicaciones de la forma más simple y fascinante."
     ca: "Descobreix les millors aplicacions de la forma més simple i fascinant."
+    en: "Discover the best applications in a simple and fascinating way."
   slug: overlapps
 -
   name: Ducksboard
@@ -194,6 +216,7 @@
   description:
     es: "Visualiza tus métricas de negocio actualizadas en tiempo real."
     ca: "Visualitza les teves mètriques de negoci actualitzades en temps real."
+    en: "Visualize your business metrics, updated in real time."
   slug: ducksboard
 -
   name: Gramposters
@@ -201,6 +224,7 @@
   description:
     es: "Compra online fotografía y arte gráfico limitado a precios asequibles"
     ca: "Compra online fotografia i art gràfic limitat a preus assequibles"
+    en: "Buy limited-edition photography and graphic art at reasonable prices"
   slug: gramposters
 -
   name: EscapadaRural.com
@@ -209,6 +233,7 @@
   description:
     es: "Portal de turismo rural con más de 12.000 alojamientos registrados"
     ca: "Portal de turisme rural amb més de 12.000 allotjaments registrats"
+    en: "Rural tourism portal, with over 12.000 registered accommodations"
   slug: escapadarural
 -
   name: Doctoralia
@@ -217,6 +242,7 @@
   description:
     es: "The global platform for doctor's appointment"
     ca: "The global platform for doctor's appointment"
+    en: "The global platform for doctors' appointments"
   slug: doctoralia
 -
   name: ADmira
@@ -225,6 +251,7 @@
   description:
     es: "Software para la gestión/emisión de contenidos para Digital Signage"
     ca: "Software per a la gestió/emissió de continguts per Digital Signage"
+    en: "Software for the management/broadcasting of content via Digital Signage"
   slug: admira
 -
   name: Captio
@@ -232,6 +259,7 @@
   description:
     es: "Captura tickets de compra con tu móvil y genera informes de gastos"
     ca: "Captura tickets de compra amb el teu mòbil i genera informes de despeses"
+    en: "Capture receipts with your phone and generate expense reports"
   slug: captio
 -
   name: Food2u
@@ -239,6 +267,7 @@
   description:
     es: "Food2u es la app para pedir comida a domicilio sin necesidad de llamar"
     ca: "Food2u es la app para demanar menjar a domicili sense necessitat de trucar"
+    en: "Food2u is the app to order take-out without having to make a phone call"
   slug: food2u
 -
   name: JobisJob
@@ -246,6 +275,7 @@
   description:
     es: "Agregador de empleo en 22 países - TOP10 de portales de empleo en UK"
     ca: "Agregador d'ocupació en 22 països - TOP10 de portals d'ocupació a UK"
+    en: "Job aggregator in 22 countries - TOP10 job portals in the UK"
   slug: jobisjob
 -
   name: Sibarit.us
@@ -253,6 +283,7 @@
   description:
     es: "Club privado de experiencias y productos gastronómicos"
     ca: "Club privat d'experiències i productes gastronòmics"
+    en: "Private club, offering experiences and gourmet products"
   slug: sibaritus
 -
   name: ByHours.com
@@ -260,6 +291,7 @@
   description:
     es: "La primera web de reserva de habitaciones de hotel por packs de horas"
     ca: "La primera web de reserva d'habitacions d'hotel per packs d'hores"
+    en: "The first site that allows you to rent hotel rooms by the hour"
   slug: byhours
 -
   name: nubelo
@@ -267,6 +299,7 @@
   description:
     es: "Contrata online. Trabaja online. Plataforma líder de teletrabajo"
     ca: "Contracta en línia. Treballa en línia. Plataforma líder de teletreball"
+    en: "Hire online. Work online. Leading teleworking platform"
   slug: nubelo
 -
   name: paraBebes.com
@@ -274,6 +307,7 @@
   description:
     es: "Comparte la experiencia de ser padres"
     ca: "Comparteix l'experiència de ser pares"
+    en: "Share the experience of being a parent"
   slug: parabebes
 -
   name: Miscota
@@ -281,6 +315,7 @@
   description:
     es: "Tienda online dedicada a la venta de productos para mascotas"
     ca: "Botiga online dedicada a la venda de productes per a mascotes"
+    en: "Online pet product store"
   slug: miscota
 -
   name: Ruraldir
@@ -288,6 +323,7 @@
   description:
     es: "Tu escapada rural a un sólo click."
     ca: "La teva escapada rural a un sol clic."
+    en: "Your rural escape, just one click away."
   slug: ruraldir
 -
   name: filmin
@@ -295,6 +331,7 @@
   description:
     es: "Portal de cine online"
     ca: "Portal de cinema online"
+    en: "Online movie portal"
   slug: filmin
 -
   name: LaComunity
@@ -302,6 +339,7 @@
   description:
     es: "El primer club de alquiler de pisos. Descuentos en pisos de alquiler."
     ca: "El primer club de lloguer de pisos. Descomptes en pisos de lloguer."
+    en: "The first apartment rental club. Discounted rental apartments."
   slug: lacomunity
 -
   name: Surfpricer
@@ -309,6 +347,7 @@
   description:
     es: "La aplicación móvil para buscar los mejores precios y ahorrar comprando"
     ca: "L’aplicació mòbil per cercar els millors preus i estalviar comprant"
+    en: "The mobile app to find the best prices and save money when shopping"
   slug: surfpricer
 -
   name: SEOCOM.es
@@ -316,6 +355,7 @@
   description:
     es: "Agencia de Marketing On-line especializada en proyectos SEO"
     ca: "Agència de Màrketing On-line especialitzada en projectes SEO"
+    en: "Online marketing agency, specialized in SEO projects"
   slug: seocom
 -
   name: VipGourmet.com
@@ -323,6 +363,7 @@
   description:
     es: "Guia de Restaurantes"
     ca: "Guia de Restaurants"
+    en: "Restaurant Guide"
   slug: vipgourmet
 -
   name: Connecting The Dots
@@ -330,4 +371,5 @@
   description:
     es: "Desarrollo de comercio electrónico a éxito: no vendes, no ganamos."
     ca: "Desenvolupament de comerç electrònic a èxit: no vens, no guanyem."
+    en: "E-commerce development with a focus on success: if you don't sell, we don't make money."
   slug: connectingthedots

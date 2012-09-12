@@ -38,10 +38,19 @@
         %p.intro&=I18n.t(:intro)
         %nav.navigation
           %ul
-            %li
-              %a{ :href => I18n.locale.to_s === 'es' ? 'ca' : '/' } #{I18n.locale.to_s === 'es' ? 'CAT' : 'ES'}
+            -if I18n.locale.to_s != 'ca'
+              %li
+                %a{ :href => '/ca' } CAT
+            -if I18n.locale.to_s != 'es'
+              %li
+                %a{ :href => '/' } ES
+            -if I18n.locale.to_s != 'en'
+              %li
+                %a{ :href => '/en' } EN
             %li
               %a.twitter.ht{ :href => 'https://www.twitter.com/imadeinbcn', :title => I18n.t(:follow_us_on_twitter) } #{I18n.t(:follow_us_on_twitter)}
+
+      -# Page content
       = yield
 
       %footer.cf
