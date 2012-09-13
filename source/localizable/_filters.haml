@@ -1,0 +1,20 @@
+%div.filters
+  %strong
+    Filter by:
+
+  %select.filter-selector.js-filter-by
+    %option{ :data => { :filter => '*' }} All
+    %option{ :data => { :filter =>  '[data-hasjobs="true"]'  }} Jobs only
+
+  %strong
+    Sort:
+
+  %select.filter-selector.js-sort-by
+    %option{ :data => { :order => 'date', :ascending => 'true' }} Date added
+    %option{ :data => { :order => 'name', :ascending => 'true' }} Alphabetically (A-Z)
+    %option{ :data => { :order => 'name', :ascending => 'false' }} Alphabetically (Z-A)
+
+  %input.filter-search.js-search{ :placeholder => 'Search' }
+
+  %a.filter.btn.btn--small.btn--faded.btn--clear-filters.js-clear{ :href => "#" }
+    %span Reset

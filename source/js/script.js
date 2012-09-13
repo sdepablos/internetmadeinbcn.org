@@ -43,53 +43,124 @@ $(function(){
 	// ==========================================================================
 
 	var $startups = $('.js-startups'),
-		$startup = $startups.find('.js-startup');
-		$jobsAvailable = $startup.filter('[data-hasjobs="true"]');
+		$startup = $startups.find('.js-startup'),
+		$filters = $('.filters'),
+		$filterBy = $('.js-filter-by'),
+		$sortBy = $('.js-sort-by'),
+		$searchBox = $('.js-search');
 
 	function initIsotope() {
 		$startups.isotope({
 			itemSelector : $startup,
 			layoutMode : 'fitRows',
+			filter: '*',
 			getSortData : {
 				name : function ( $elem ) {
 					return $elem.find('.startup__name').text().toLowerCase();
 				}
-			},
-			filter: '*'
+			}
 		});
 	}
 
-	$('.js-filter-clear').on('click', function(){
+	// Clear filters
+	// ==========================================================================
+
+	$filters.on('click','.js-clear', function(){
 		$startups.isotope({ filter: '*' });
+		$searchBox.val('');
 		$startups.isotope('destroy');
 		initIsotope();
 	});
 
+	// Filter by
+	// ==========================================================================
 
-	$('.js-filter-all').on('click', function(){
+	$filters.on('change', '.js-filter-by', function(){
+		var $this = $(this),
+			$optionSelected = $this.find('option:selected');
+
+		$startups.isotope({ filter: $optionSelected.data('filter') });
+	});
+
+	// Sort by
+	// ==========================================================================
+
+	$filters.on('change', '.js-sort-by', function(){
+		var $this = $(this),
+			$optionSelected = $this.find('option:selected');
+
+		$startups.isotope({
+			sortBy: $optionSelected.data('order'),
+			sortAscending: $optionSelected.data('ascending')
+		});
+	});
+
+
+	// Search
+	// ==========================================================================
+
+	var items = [];
+
+	$startup.each(function(){
+		var tmp = {},
+			$this = $(this);
+
+		tmp.id = $this.index();
+		tmp.name = $this.find('.startup__name').text().toLowerCase();
+		tmp.description = $this.find('.startup__description').text().toLowerCase();
+		$this.attr('id',tmp.id);
+		items.push( tmp );
+	});
+
+	// Search keyup event
+	$searchBox.on('keyup', function() {
+		isotopeSearch( $(this).val().toLowerCase() );
+	});
+
+	function isotopeSearch(kwd) {
+
+		// Reset results arrays
+		var matches = [];
+		var misses = [];
+
+		$startup.removeClass('match miss'); // Reset match & miss classes everywhere
+
+		// Reset other filters
 		$startups.isotope({ filter: '*' });
-	});
 
-	$('.js-filter-jobs').on('click', function(){
-		$startups.isotope({
-			filter: $jobsAvailable
-		});
-	});
 
-	$('.js-sort-alphabetically').on('click', function(){
-		$startups.isotope({
-			sortBy: 'name'
-		});
-	});
+		if ( (kwd !== '') && (kwd.length >= 2) ) {
 
-	$('.js-sort-shuffle').on('click', function(){
-		$startups.isotope('shuffle');
-	});
+			$.map(items, function(item){
 
+				// Keyword matches element
+				if ( item.name.indexOf(kwd) !== -1 || item.description.indexOf(kwd) !== -1 ) {
+					console.log(item.id);
+					matches.push( $('#'+item.id)[0] );
+				} else {
+					misses.push( $('#'+item.id)[0] );
+				}
+			});
+
+			// Add match & miss classes
+			$(matches).addClass('match');
+			$(misses).addClass('miss');
+
+			// Display search filter results
+			$startups.isotope({ filter: $(matches) });
+
+		} else {
+
+			// Show everything if keyword is less than 2 characters
+			$startups.isotope({ filter: '*' });
+		}
+
+	}
+
+	// Initialize Isotope
 	initIsotope();
 
 });
-
 
 /*
  * Lazy Load - jQuery plugin for lazy loading images

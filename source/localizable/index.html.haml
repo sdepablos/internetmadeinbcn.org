@@ -36,17 +36,7 @@
     .apply__form
       %div.cf{ :id => "wufoo-" + I18n.t(:wufoo_form_id) }
 
-%ul.nav
-  %li
-    %a.js-filter-clear{ :href => "#" } Clear
-  %li
-    %a.js-filter-all{ :href => "#" } All
-  %li
-    %a.js-filter-jobs{ :href => "#" } Jobs
-  %li
-    %a.js-sort-alphabetically{ :href => "#" } A-Z
-  %li
-    %a.js-sort-shuffle{ :href => "#" } Shuffle
+= partial('filters')
 
 %ol.startups.cf.js-startups
   -data.startups.each do |startup|

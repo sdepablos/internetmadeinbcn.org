@@ -8,6 +8,7 @@
 // 3. Join us
 // 4. Companies
 // 5. Global & UI elements
+// 6. Filters
 //
 // =============================================================================
 
@@ -271,6 +272,87 @@ img { max-width: 100%; }
 	}
 }
 
+.d-hide {
+	@include respond-to-desktop-and-up {
+		display: none !important;
+	}
+}
+
+.t-hide {
+	@include respond-to-tablet-landscape-and-below {
+		display: none !important;
+	}
+}
+.m-hide {
+	@include respond-to-tablet-portrait-and-below {
+		display: none !important;
+	}
+}
+// =============================================================================
+// 6. Filters
+// =============================================================================
+
+.filters {
+	@include leading-border(1px, .25);
+	@include padding-trailer(.25);
+	border-color: $line-color;
+	text-align: center;
+	background: lighten($gray-lighter,5%);
+
+	li {
+		padding: 0 .25em;
+	}
+
+}
+
+.nav--filters {
+	display: inline-block;
+	padding-right: 1em;
+	margin-right: 2em;
+	border-right: solid 1px $line-color;
+
+	@include respond-to-mobile-only {
+		display: block;
+		margin-right: 0;
+		border-right: none;
+		@include padding-leader(1);
+		@include padding-trailer(1);
+	}
+
+}
+
+.filter-selector {
+	margin-right: 1.5em;
+	margin-left: .25em;
+}
+
+.filter-search {
+	@include border-radius();
+	position: relative;
+	top: 2px;
+	width: 12em;
+	height: 1.75em;
+	border: solid 1px darken($gray-lighter,10%);
+	padding-left: .5em;
+	padding-right: .5em;
+	color: $gray;
+
+	&:focus {
+		outline: none;
+	}
+
+	&:-moz-placeholder {
+		color: $gray-light;
+	}
+
+	&::-webkit-input-placeholder {
+		color: $gray-light;
+	}
+ }
+
+.btn--clear-filters {
+	margin-left: 1.5em;
+}
 // =============================================================================
 // 6. Lazy
 // =============================================================================

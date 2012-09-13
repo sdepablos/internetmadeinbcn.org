@@ -41,6 +41,13 @@
 		}
 	}
 
+	&.btn--small {
+		@extend .milli;
+		padding: 2px;
+
+		span { padding: 2px .75em; }
+	}
+
 	&.btn--mini {
 		@extend .nano;
 		padding: 1px;
