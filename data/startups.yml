@@ -413,3 +413,12 @@
     ca: "Protegeix el teu dispositiu mobil amb estil"
     en: "Guard your mobile device in style"
   slug: uguardme
+-
+  name: Tiching
+  url: http://www.tiching.me
+  jobs: http://www.tiching.com/about/job
+  description:
+    es: "Plataforma educativa integrada por un buscador y una red social"
+    ca: "Plataforma educativa integrada per un cercador i una xarxa social"
+    en: "Educational platform integrated by a search engine and a social net"
+  slug: tiching
