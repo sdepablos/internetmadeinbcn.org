@@ -397,3 +397,19 @@
     ca: "Comprar vi online i recomanacions en venda de vins"
     en: "Buy wine online and wine recommendations at the best price"
   slug: uvinum
+-
+  name: testif
+  url: http://www.testif.com
+  description:
+    es: "Herramienta Web y móvil para la creación de tests ricos e interactivos"
+    ca: "Eina Web i mòbil per a la creació de tests multimèdia i interactius"
+    en: "Web and mobile tool that eases the creation of rich and dynamic  tests"
+  slug: testif
+-
+  name: uguard.me
+  url: http://www.uguard.me
+  description:
+    es: "Protege tu dispositivo móvil con estilo"
+    ca: "Protegeix el teu dispositiu mobil amb estil"
+    en: "Guard your mobile device in style"
+  slug: uguardme
