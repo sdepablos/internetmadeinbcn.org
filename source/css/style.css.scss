@@ -219,21 +219,20 @@ body {
 
 	// Four companies per row on Desktop
 	@include respond-to-desktop-and-up {
-		&:nth-child(4n+0) { border-right: none; }
+		// &:nth-child(4n+0) { border-right: none; }
 	}
 
 	// Three companies per row on Tablets
 	@include respond-to-tablet-only {
-		width: 33%;
-		&:nth-child(3n+0) { border-right: none; }
+		width: 33.333333%;
+		// &:nth-child(3n+0) { border-right: none; }
 	}
 
 	// A single company per row on Mobile
 	@include respond-to-mobile-only {
 		width: 100%;
-		border-right: none;
+		// border-right: none;
 	}
-
 }
 
 .startup__name { text-transform: uppercase; }
@@ -254,6 +253,8 @@ body {
 // Fluid images
 img { max-width: 100%; }
 
+label { font-weight: bold; }
+
 .twitter {
 	display: block;
 	width: 24px;
@@ -272,22 +273,6 @@ img { max-width: 100%; }
 	}
 }
 
-.d-hide {
-	@include respond-to-desktop-and-up {
-		display: none !important;
-	}
-}
-
-.t-hide {
-	@include respond-to-tablet-landscape-and-below {
-		display: none !important;
-	}
-}
-.m-hide {
-	@include respond-to-tablet-portrait-and-below {
-		display: none !important;
-	}
-}
 // =============================================================================
 // 6. Filters
 // =============================================================================
@@ -298,27 +283,6 @@ img { max-width: 100%; }
 	border-color: $line-color;
 	text-align: center;
 	background: lighten($gray-lighter,5%);
-
-	li {
-		padding: 0 .25em;
-	}
-
-}
-
-.nav--filters {
-	display: inline-block;
-	padding-right: 1em;
-	margin-right: 2em;
-	border-right: solid 1px $line-color;
-
-	@include respond-to-mobile-only {
-		display: block;
-		margin-right: 0;
-		border-right: none;
-		@include padding-leader(1);
-		@include padding-trailer(1);
-	}
-
 }
 
 .filter-selector {
@@ -332,27 +296,21 @@ img { max-width: 100%; }
 	top: 2px;
 	width: 12em;
 	height: 1.75em;
-	border: solid 1px darken($gray-lighter,10%);
+	margin-right: 1.5em;
 	padding-left: .5em;
 	padding-right: .5em;
+	border: solid 1px darken($gray-lighter,10%);
 	color: $gray;
 
-	&:focus {
-		outline: none;
-	}
+	&:focus { outline: none; }
 
-	&:-moz-placeholder {
-		color: $gray-light;
-	}
+	&:-moz-placeholder { color: $gray-light; }
 
-	&::-webkit-input-placeholder {
-		color: $gray-light;
-	}
+	&::-webkit-input-placeholder { color: $gray-light; }
  }
 
-.btn--clear-filters {
-	margin-left: 1.5em;
-}
+.btn--clear-filters { margin-left: 1em; }
+
 // =============================================================================
 // 6. Lazy
 // =============================================================================
