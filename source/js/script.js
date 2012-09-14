@@ -68,6 +68,7 @@ $(function(){
 		$startups.isotope({ filter: '*' });
 		$searchBox.val('');
 		$startups.isotope('destroy');
+		return false;
 	});
 
 	// Filter by
@@ -111,7 +112,7 @@ $(function(){
 		isotopeSearch( $(this).val().toLowerCase() );
 	});
 
-	function isotopeSearch(kwd) {
+	function isotopeSearch(keyword) {
 
 		// Reset results arrays
 		var matches = [];
@@ -124,12 +125,11 @@ $(function(){
 		$startups.isotope({ filter: '*' });
 
 
-		if ( (kwd !== '') && (kwd.length >= 2) ) {
+		if ( (keyword !== '') && (keyword.length >= 2) ) {
 
 			$.map(items, function(item){
 				// Keyword matches element
-				if ( item.name.indexOf(kwd) !== -1 || item.description.indexOf(kwd) !== -1 ) {
-					console.log(item.id);
+				if ( item.name.indexOf(keyword) !== -1 || item.description.indexOf(keyword) !== -1 ) {
 					matches.push( $('#'+item.id)[0] );
 				} else {
 					misses.push( $('#'+item.id)[0] );

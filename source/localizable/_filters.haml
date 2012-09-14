@@ -1,21 +1,21 @@
 %div.filters
 
-  %input.filter-search.js-search{ :placeholder => 'Search' }
+  %input.filter-search.js-search{ :placeholder => I18n.t(:search) }
 
   %label{ :for => 'filter-by' }
-    Filter by:
+    &= I18n.t(:filter_by)
 
   %select#filter-by.filter-selector.js-filter-by
-    %option{ :data => { :filter => '*' }} All
-    %option{ :data => { :filter =>  '[data-hasjobs="true"]'  }} Jobs only
+    %option{ :data => { :filter => '*' }}&= I18n.t(:filter_all)
+    %option{ :data => { :filter =>  '[data-hasjobs="true"]'  }}&= I18n.t(:filter_jobs_only)
 
   %label{ :for => 'sort-by' }
-    Sort:
+    &= I18n.t(:sort_by)
 
   %select#sort-by.filter-selector.js-sort-by
-    %option{ :data => { :order => 'date', :ascending => 'true' }} Date added
-    %option{ :data => { :order => 'name', :ascending => 'true' }} Alphabetically (A-Z)
-    %option{ :data => { :order => 'name', :ascending => 'false' }} Alphabetically (Z-A)
+    %option{ :data => { :order => 'date', :ascending => 'true' }}&= I18n.t(:sort_date_added)
+    %option{ :data => { :order => 'name', :ascending => 'true' }}&= I18n.t(:sort_alphabetically_az)
+    %option{ :data => { :order => 'name', :ascending => 'false' }}&= I18n.t(:sort_alphabetically_za)
 
   %a.filter.btn.btn--small.btn--faded.btn--clear-filters.js-clear{ :href => "#" }
     %span x
