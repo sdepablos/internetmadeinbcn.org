@@ -422,3 +422,11 @@
     ca: "Plataforma educativa integrada per un cercador i una xarxa social"
     en: "Educational platform integrated by a search engine and a social net"
   slug: tiching
+-
+  name: Netquest
+  url: http://www.netquest.com
+  description:
+    es: "Paneles de consumidores online y software de encuestas online"
+    ca: "Panels i software d'enquestes online per a l'investigador de mercats"
+    en: "Online panels and survey software for the market researcher"
+  slug: netquest
