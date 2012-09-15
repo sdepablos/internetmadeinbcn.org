@@ -60,17 +60,6 @@ $(function(){
 		}
 	});
 
-
-	// Clear filters
-	// ==========================================================================
-
-	$filters.on('click','.js-clear', function(){
-		$startups.isotope({ filter: '*' });
-		$searchBox.val('');
-		$startups.isotope('destroy');
-		return false;
-	});
-
 	// Filter by
 	// ==========================================================================
 

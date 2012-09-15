@@ -278,8 +278,8 @@ label { font-weight: bold; }
 // =============================================================================
 
 .filters {
-	@include leading-border(1px, .25);
-	@include padding-trailer(.25);
+	@include leading-border(1px, .75);
+	@include padding-trailer(.75);
 	border-color: $line-color;
 	text-align: center;
 	background: lighten($gray-lighter,5%);
