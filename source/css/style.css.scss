@@ -44,7 +44,6 @@ body {
 		@include leader(0);
 		padding-left: 1em;
 		padding-right: 1em;
-		
 	}
 
 	// Smoother scrolling in webkit browsers enabling GPU acceleration
@@ -139,13 +138,11 @@ body {
 .apply {
 	@include box-shadow(inset 0 1px 3px rgba(33,36,45,.25));
 
-	// Dirty workaround to prevent jumpy and wrong height slideDown
-	//   @to-do: use a better solution without explicitly defined heights
-	@include respond-to-tablet-portrait-and-up { height: 898px; }
-	@include respond-to-mobile-only { height: 1358px; }
-
 	// Collapse section
 	display: none;
+
+	// Fix for wrong height on slideDown()
+	width: 100%;
 
 	background: #858891;
 	color: $white;
