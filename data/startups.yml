@@ -439,3 +439,12 @@
     ca: "eyeOS és l’escriptori número 1 al núvol"
     en: "eyeOS, the world’s #1 Cloud Desktop"
   slug: eyeos
+-
+  name: Forcemanager
+  url: http://www.forcemanager.net
+  jobs: http://www.forcemanager.net/es/empresa.php
+  description:
+    es: "Aumenta la eficiencia comercial de tu fuerza de ventas"
+    ca: "Augmenta l'eficiència comercial de la teva força de vendes"
+    en: "Increase commercial efficiency of your sales force"
+  slug: forcemanager
