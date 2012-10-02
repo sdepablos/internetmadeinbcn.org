@@ -448,3 +448,28 @@
     ca: "Augmenta l'eficiència comercial de la teva força de vendes"
     en: "Increase commercial efficiency of your sales force"
   slug: forcemanager
+-
+  name: Medtep
+  url: http://medtep.com
+  description:
+    es: "Medtep es la mejora de la comunicación doctor-paciente"
+    ca: "Medtep és la millora de la comunicació doctor-pacient"
+    en: "Medtep enhances global communication between doctors and patients"
+  slug: medtep
+-
+  name: Labtrip
+  url: http://www.labtrip.com/
+  jobs: http://www.labtrip.com/es/trabajar-en-labtrip
+  description:
+    es: "Labtrip es una herramienta de Social Travel para crear guías de viaje"
+    ca: "Labtrip és una eina de Social Travel per crear guies de viatge"
+    en: "Labtrip is a social travel tool to create travel guides"
+  slug: labtrip
+-
+  name: Knok
+  url: http://www.knok.com/
+  description:
+    es: "Intercambia tu casa con gente en la que puedes confiar"
+    ca: "Intercanvia casa teva amb gent en la que pots confiar"
+    en: "Swap your home with people you can trust"
+  slug: knok
