@@ -473,3 +473,11 @@
     ca: "Intercanvia casa teva amb gent en la que pots confiar"
     en: "Swap your home with people you can trust"
   slug: knok
+-
+  name: Babibum
+  url: http://www.babibum.es/
+  description:
+    es: "Comprar material infantil y todo lo que bebés y mamás necesitan"
+    ca: "Comprar material infantil i tot el que nadons i mares necessiten"
+    en: "Buy children's stuff and everything that babies and moms need"
+  slug: babibum
