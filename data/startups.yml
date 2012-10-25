@@ -481,3 +481,12 @@
     ca: "Comprar material infantil i tot el que nadons i mares necessiten"
     en: "Buy children's stuff and everything that babies and moms need"
   slug: babibum
+-
+  name: Osclass
+  url: http://osclass.com/
+  jobs: http://jobs.osclass.com/
+  description:
+    es: "Recibe CV gratis y sin límites a tu tablón de anuncios personalizado!"
+    ca: "Rep CV gratis i sense límits al teu tauler d'anuncis personalitzat!"
+    en: " Receive CV for free and without limits to your personalized job board!"
+  slug: osclass
