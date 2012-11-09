@@ -488,5 +488,13 @@
   description:
     es: "Recibe CV gratis y sin límites a tu tablón de anuncios personalizado!"
     ca: "Rep CV gratis i sense límits al teu tauler d'anuncis personalitzat!"
-    en: " Receive CV for free and without limits to your personalized job board!"
+    en: "Receive CV for free and without limits to your personalized job board!"
   slug: osclass
+-
+  name: Typeform
+  url: http://www.typeform.com/
+  description:
+    es: "Responder preguntas online no tiene que ser aburrido."
+    ca: "Respondre preguntes online no ha de ser avorrit."
+    en: "Answering questions online doesn't have to be boring."
+  slug: typeform
