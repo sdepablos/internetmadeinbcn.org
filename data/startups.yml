@@ -498,3 +498,19 @@
     ca: "Respondre preguntes online no ha de ser avorrit."
     en: "Answering questions online doesn't have to be boring."
   slug: typeform
+-
+  name: Blueknow
+  url: http://www.blueknow.com/
+  description:
+    es: "Tecnología de personalización y recomendaciones para negocios online."
+    ca: "Tecnología de personalització i recomanacions per negocis online."
+    en: "Personalization and recommendation technology for online businesses."
+  slug: blueknow
+-
+  name: Privalia
+  url: http://es.privalia.com/
+  description:
+    es: "Club privado de ventas online."
+    ca: "Club privat de vendes online."
+    en: "Online private sales club."
+  slug: privalia
