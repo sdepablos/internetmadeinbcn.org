@@ -515,3 +515,12 @@
     ca: "Club privat de vendes online."
     en: "Online private sales club."
   slug: privalia
+-
+  name: Groupalia
+  url: http://es.groupalia.com/
+  jobs: http://es.groupalia.com/descuentos-barcelona/trabaja-con-nosotros
+  description:
+    es: "Los mejores descuentos y ofertas online en planes de ocio, viajes, …"
+    ca: "Els millors descomptes i ofertes online de plans d'oci, viatges, …"
+    en: "The best online discounts and deals on leisure, travel, …"
+  slug: groupalia
