@@ -524,3 +524,11 @@
     ca: "Els millors descomptes i ofertes online de plans d'oci, viatges, …"
     en: "The best online discounts and deals on leisure, travel, …"
   slug: groupalia
+-
+  name: MyStarAutograph
+  url: http://mystarautograph.com
+  description:
+    es: "Fotografías con dedicatoria personalizada de tu estrella favorita."
+    ca: "Fotografies amb dedicatòria personalitzada de teu estrella preferida."
+    en: "Photos with your personal message in the celebrity own handwriting"
+  slug: mystarautograph
