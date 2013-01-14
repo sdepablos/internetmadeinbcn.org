@@ -532,3 +532,12 @@
     ca: "Fotografies amb dedicatòria personalitzada de teu estrella preferida."
     en: "Photos with your personal message in the celebrity own handwriting"
   slug: mystarautograph
+-
+  name: InfoJobs
+  url: http://www.infojobs.net
+  jobs: http://nosotros.trabajo.infojobs.net/
+  description:
+    es: "InfoJobs es la web de empleo líder, creada en 1998."
+    ca: "InfoJobs es la web de treball líder, creada en 1998."
+    en: "InfoJobs is the leading jobboard site, created in 1998."
+  slug: infojobs
