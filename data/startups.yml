@@ -541,3 +541,12 @@
     ca: "InfoJobs es la web de treball líder, creada en 1998."
     en: "InfoJobs is the leading jobboard site, created in 1998."
   slug: infojobs
+-
+  name: Fancybox
+  url: http://www.fancybox.com
+  jobs: http://berepublic.es/newbeBlog/?p=15507
+  description:
+    es: "La mayor comunidad de belleza de América Latina."
+    ca: "La comunitat de bellesa més gran d'Amèrica Llatina."
+    en: "The biggest beauty community in Latin America."
+  slug: fancybox
