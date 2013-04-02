@@ -559,3 +559,43 @@
     ca: "A BeerBox trobaràs la millor selecció de cervesses artesanals del món."
     en: "At BeerBox you'll find the best selection of beers in the world."
   slug: beerbox
+-
+  name: CatalogPlayer
+  url: http://www.catalogplayer.com
+  description:
+    es: "Crea catálogos interactivos de productos en la nube, úsalos en tablet."
+    ca: "Crea catàlegs de productes interactius al nuvol, utilitza'ls al tablet."
+    en: "Create interactive catalogs of products in the cloud, use it on tablet."
+  slug: catalogplayer
+-
+  name: MAGAZAPP
+  url: http://www.Magazapp.com
+  description:
+    es: "Imagina tu publicación como una app para tablets y smartphones."
+    ca: "Imagina la teva publicació com una app per a tablets i smartphones."
+    en: "Imagine your publication as an app for tablets and smartphones."
+  slug: magazapp
+-
+  name: Siquia
+  url: http://www.siquia.com
+  description:
+    es: "Plataforma de atención psicológica online."
+    ca: "Plataforma d'atenció psicològica online."
+    en: "Online platform to assist people with menthal dissorders."
+  slug: siquia
+-
+  name: Listiamo
+  url: http://www.listiamo.com
+  description:
+    es: "La red social para crear, compartir, colaborar y comentar listas."
+    ca: "La xarxa social per crear, compartir, col·laborar i comentar llistes."
+    en: "The social network to create, share, collaborate and comment lists."
+  slug: listiamo
+-
+  name: Sexmind
+  url: http://www.sexmind.com
+  description:
+    es: "Aprende sobre sexo de una manera más amena y conoce a gente igual a ti."
+    ca: "Apren sobre sexe d'una manera més amena i coneix a gent igual a tu."
+    en: "Learn about sex in a fun way, meet others with your sexual interests."
+  slug: sexmind
