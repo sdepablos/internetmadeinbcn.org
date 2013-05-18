@@ -43,6 +43,9 @@
         %a.startup__jobs.btn.btn--mini.btn--faded{ :href => startup.jobs, 'title' => startup.name + ' ' + I18n.t(:jobs) }
           %span #{ I18n.t(:jobs) }
       %a{ :href => startup.url, :title => startup.name + ' ' + startup.description[I18n.locale.to_s] }
-        =image_tag 'logos/'+startup.slug.downcase+'.png', :alt => startup.name, :width => '150', :height => '150'
+        %img{ :data => {:original => '/img/logos/'+startup.slug.downcase+'.png'}, :alt => startup.name, :width => '150', :height => '150', :class => 'lazy' }
+        %noscript
+          =image_tag 'logos/'+startup.slug.downcase+'.png', :alt => startup.name, :width => '150', :height => '150'
+
         %h2.startup__name.delta&= startup.name
         %p.startup__description.milli&= startup.description[I18n.locale.to_s]
