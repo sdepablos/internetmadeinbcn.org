@@ -625,3 +625,11 @@
     ca: "FXstreet.com es la web de referència  sobre el mercat de divises."
     en: "FXstreet.com is the site of reference for the forex eschange market."
   slug: fxstreet
+-
+  name: "Quedamus"
+  url: http://www.quedamus.com
+  description:
+    es: "Es una red social donde conocer gente interesante para tus negocios."
+    ca: "És una xarxa social on conèixer gent interessant pels teus negocis."
+    en: "Social network where you meet interesting people for your business."
+  slug: quedamus
