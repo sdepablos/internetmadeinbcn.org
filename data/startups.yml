@@ -599,3 +599,29 @@
     ca: "Apren sobre sexe d'una manera més amena i coneix a gent igual a tu."
     en: "Learn about sex in a fun way, meet others with your sexual interests."
   slug: sexmind
+-
+  name: Friend2Friend
+  url: http://www.friend2friend.com
+  jobs: http://www.friend2friend.com/jobs
+  description:
+    es: "Plataforma de Social Media Marketing para marcas de gran consumo."
+    ca: "Plataforma de Social Media Marketing per a marques de gran consum."
+    en: "Social media marketing platform for large consumer brands"
+  slug: friend2friend
+-
+  name: Social Eaters
+  url: http://www.socialeaters.com
+  description:
+    es: "Red social que organiza eventos gastronómicos entre desconocidos."
+    ca: "Xarxa social q organitza esdeveniments gastronòmics entre desconeguts."
+    en: "Social network promoting social dining events to meet new people"
+  slug: socialeaters
+-
+  name: FXstreet.com
+  url: http://www.fxstreet.com
+  jobs: http://about.fxstreet.com/jobs/
+  description:
+    es: "FXstreet.com es la web de referencia sobre el mercado de divisas."
+    ca: "FXstreet.com es la web de referència  sobre el mercat de divises."
+    en: "FXstreet.com is the site of reference for the forex eschange market."
+  slug: fxstreet
