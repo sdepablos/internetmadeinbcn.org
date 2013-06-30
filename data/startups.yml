@@ -633,3 +633,20 @@
     ca: "És una xarxa social on conèixer gent interessant pels teus negocis."
     en: "Social network where you meet interesting people for your business."
   slug: quedamus
+-
+  name: "Zamsap"
+  url: http://www.zamsap.com
+  description:
+    es: "Web donde poder guardar tus productos preferidos en wishlists sociales."
+    ca: "Web on poder guardar els teus productes preferits en wishlists socials."
+    en: "Website where store your preferred products in social wishlists."
+  slug: zamsap
+-
+  name: "Deporvillage"
+  url: http://www.deporvillage.com
+  jobs: http://www.deporvillage.com/trabaja-con-nosotros
+  description:
+    es: "Tienda online de ciclismo, running, natación y fitness."
+    ca: "Botiga online de ciclisme, running, natació i fitness."
+    en: "Online cycling, running, swimming and fitness retailer."
+  slug: deporvillage
