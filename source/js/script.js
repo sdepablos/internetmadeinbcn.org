@@ -36,7 +36,16 @@ $(function(){
 
 	});
 
-	$(".lazy").lazyload();
+	// ==========================================================================
+	//	3. Lazy loading logos
+	// ==========================================================================
+
+	var $logos = $(".lazy");
+
+	$logos.lazyload({
+		effect: "fadeIn",
+		failure_limit: Math.max($logos.length - 1, 0)
+	});
 
 	// ==========================================================================
 	//	2. Filters
@@ -57,6 +66,9 @@ $(function(){
 			name : function ( $elem ) {
 				return $elem.find('.startup__name').text().toLowerCase();
 			}
+		},
+		onLayout: function() {
+			$(window).trigger("scroll");
 		}
 	});
 
