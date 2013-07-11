@@ -650,3 +650,11 @@
     ca: "Botiga online de ciclisme, running, natació i fitness."
     en: "Online cycling, running, swimming and fitness retailer."
   slug: deporvillage
+-
+  name: "Gomfy"
+  url: http://www.gomfy.com
+  description:
+    es: "Mercado de Alojamiento para Estudiantes."
+    ca: "Mercat d'allotjament per estudiants."
+    en: "Student Accommodation Marketplace."
+  slug: gomfy
