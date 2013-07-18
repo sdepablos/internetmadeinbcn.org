@@ -658,3 +658,12 @@
     ca: "Mercat d'allotjament per estudiants."
     en: "Student Accommodation Marketplace."
   slug: gomfy
+-
+  name: "GetApp"
+  url: http://www.getapp.com
+  jobs: http://getapp.mytribehr.com/careers
+  description:
+    es: "El mercado independiente # 1 proveedor de Cloud y SaaS negocio apps"
+    ca: "El mercat independent # 1 proveïdor de Cloud i SaaS negoci aplicacions."
+    en: "The #1 vendor independent marketplace for Cloud and SaaS business apps."
+  slug: getapp
