@@ -667,3 +667,27 @@
     ca: "El mercat independent # 1 proveïdor de Cloud i SaaS negoci aplicacions."
     en: "The #1 vendor independent marketplace for Cloud and SaaS business apps."
   slug: getapp
+-
+  name: "Lodgify"
+  url: http://www.lodgify.com
+  description:
+    es: "Lodgify desarrolla un software innovador para el alquiler vacacional."
+    ca: "Lodgify desenvolupa un software innovador pel lloguer de vacances."
+    en: "Lodgify develops innovative software for the vacation rental industry."
+  slug: lodgify
+-
+  name: "Adverway"
+  url: http://www.adverway.com
+  description:
+    es: "Social media marketing mediante juegos publicitarios personalizables."
+    ca: "Social media marketing mitjançant jocs publicitaris personalitzables."
+    en: "Social media marketing through custom branded games."
+  slug: adverway
+-
+  name: "Quipu"
+  url: http://www.getquipu.com
+  description:
+    es: "Quipu es un software de facturación online para freelances y empresas"
+    ca: "Quipu és un software de facturació online per a freelances i empreses"
+    en: "Quipu is an invoicing and financial management cloud-based software"
+  slug: quipu
