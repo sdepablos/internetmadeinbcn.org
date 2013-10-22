@@ -687,7 +687,15 @@
   name: "Quipu"
   url: http://www.getquipu.com
   description:
-    es: "Quipu es un software de facturación online para freelances y empresas"
-    ca: "Quipu és un software de facturació online per a freelances i empreses"
-    en: "Quipu is an invoicing and financial management cloud-based software"
+    es: "Quipu es un software de facturación online para freelances y empresas."
+    ca: "Quipu és un software de facturació online per a freelances i empreses."
+    en: "Quipu is an invoicing and financial management cloud-based software."
   slug: quipu
+-
+  name: "Playfulbet"
+  url: http://www.playfulbet.com
+  description:
+    es: "Playfulbet es un juego social de pronósticos deportivos gratuitos."
+    ca: "Playfulbet es un joc social de pronòstics esportius gratuits."
+    en: "Playfulbet is a free social game of sports predictions"
+  slug: playfulbet
