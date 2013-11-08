@@ -699,3 +699,11 @@
     ca: "Playfulbet es un joc social de pronòstics esportius gratuits."
     en: "Playfulbet is a free social game of sports predictions"
   slug: playfulbet
+-
+  name: "KiteBit"
+  url: http://kitebit.com
+  description:
+    es: "Vende directamente a tu audiencia."
+    ca: "Ven directament a la teva audiencia."
+    en: "Sell directly to your audience."
+  slug: kitebit
