@@ -707,3 +707,11 @@
     ca: "Ven directament a la teva audiencia."
     en: "Sell directly to your audience."
   slug: kitebit
+-
+  name: "Instaroom"
+  url: http://instaroom.co
+  description:
+    es: "Ofertas diarias para alquileres turísticos."
+    ca: "Ofertes diàries per lloguer turístic."
+    en: "Flash sales for vacation rentals"
+  slug: instaroom
