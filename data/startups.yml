@@ -715,3 +715,11 @@
     ca: "Ofertes diàries per lloguer turístic."
     en: "Flash sales for vacation rentals"
   slug: instaroom
+-
+  name: "Babanjo"
+  url: http://babanjo.com
+  description:
+    es: "Una nueva forma de escuchar la radio online."
+    ca: "Una nova forma d'escoltar la ràdio online."
+    en: "A new way to listen online radio."
+  slug: babanjo
