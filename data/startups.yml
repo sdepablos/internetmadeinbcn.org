@@ -43,15 +43,6 @@
     en: "Daily deals and discounts in beauty, restaurants, entertainment and travel"
   slug: letsbonus
 -
-  name: Emagister
-  url: http://www.emagister.com
-  jobs: http://www.infojobs.net/gen/multisite-ij.xhtml/iCodigoPerfil=966351524526202650353214954944
-  description:
-    es: "Te ayudamos a encontrar tu formación ideal"
-    ca: "T'ajudem a trobar la teva formació ideal"
-    en: "We help you find your ideal training"
-  slug: emagister
--
   name: Uncomo
   url: http://www.uncomo.com
   description:
