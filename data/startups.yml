@@ -722,3 +722,12 @@
     ca: "Organització visual per creatius."
     en: "Visual organization for creatives."
   slug: icebergs
+-
+  name: "3SCALE"
+  url: http://www.3scale.net
+  jobs: http://www.3scale.net/jobs/
+  description:
+    es: "Plataforma de Gestión de APIs: Gestiona, Distribuye y Monetiza tu API."
+    ca: "Plataforma de Gestió d'APIs: Gestiona, Distribueix i Monetitza la API."
+    en: "API Management Platform: Package, Distribute and Monetize your API."
+  slug: 3scale
