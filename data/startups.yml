@@ -135,14 +135,6 @@
     en: "Get a budget for your construction project, house remodel or repair"
   slug: tumanitas
 -
-  name: persona/
-  url: http://www.perso.na
-  description:
-    es: "Show what you really love"
-    ca: "Show what you really love"
-    en: "Show what you really love"
-  slug: persona
--
   name: Akamon Entertainment Ltd
   jobs: http://akamon.com/jobs/job-offers/
   url: http://akamon.com
@@ -169,14 +161,6 @@
     ca: "Entrades, restaurants, activitats, vols, hotels, viatjes, creuers"
     en: "Tickets, restaurants, activities, flights, hotels, trips, cruises"
   slug: atrapalo
--
-  name: TusJuegos
-  url: http://tusjuegos.com
-  description:
-    es: "Portal de venta online de videojuegos a través de descargas legales"
-    ca: "Portal de venda online de videojocs a través de descàrregues legals"
-    en: "Portal that allows legal downloading of videogames"
-  slug: tusjuegos
 -
   name: Social-Buy.com
   url: http://www.social-buy.com
@@ -209,14 +193,6 @@
     ca: "Visualitza les teves mètriques de negoci actualitzades en temps real."
     en: "Visualize your business metrics, updated in real time."
   slug: ducksboard
--
-  name: Gramposters
-  url: http://www.gramposters.com
-  description:
-    es: "Compra online fotografía y arte gráfico limitado a precios asequibles"
-    ca: "Compra online fotografia i art gràfic limitat a preus assequibles"
-    en: "Buy limited-edition photography and graphic art at reasonable prices"
-  slug: gramposters
 -
   name: EscapadaRural.com
   url: http://www.escapadarural.com
@@ -389,14 +365,6 @@
     en: "Buy wine online and wine recommendations at the best price"
   slug: uvinum
 -
-  name: testif
-  url: http://www.testif.com
-  description:
-    es: "Herramienta Web y móvil para la creación de tests ricos e interactivos"
-    ca: "Eina Web i mòbil per a la creació de tests multimèdia i interactius"
-    en: "Web and mobile tool that eases the creation of rich and dynamic  tests"
-  slug: testif
--
   name: uguard.me
   url: http://www.uguard.me
   description:
@@ -447,15 +415,6 @@
     ca: "Medtep és la millora de la comunicació doctor-pacient"
     en: "Medtep enhances global communication between doctors and patients"
   slug: medtep
--
-  name: Labtrip
-  url: http://www.labtrip.com/
-  jobs: http://www.labtrip.com/es/trabajar-en-labtrip
-  description:
-    es: "Labtrip es una herramienta de Social Travel para crear guías de viaje"
-    ca: "Labtrip és una eina de Social Travel per crear guies de viatge"
-    en: "Labtrip is a social travel tool to create travel guides"
-  slug: labtrip
 -
   name: Knok
   url: http://www.knok.com/
@@ -615,14 +574,6 @@
     ca: "És una xarxa social on conèixer gent interessant pels teus negocis."
     en: "Social network where you meet interesting people for your business."
   slug: quedamus
--
-  name: "Zamsap"
-  url: http://www.zamsap.com
-  description:
-    es: "Web donde poder guardar tus productos preferidos en wishlists sociales."
-    ca: "Web on poder guardar els teus productes preferits en wishlists socials."
-    en: "Website where store your preferred products in social wishlists."
-  slug: zamsap
 -
   name: "Deporvillage"
   url: http://www.deporvillage.com
