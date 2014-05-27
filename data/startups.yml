@@ -542,15 +542,6 @@
     en: "The biggest beauty community in Latin America."
   slug: fancybox
 -
-  name: BeerBox
-  url: http://www.beerbox.es
-  jobs: http://www.beerbox.es/content/9-ofertas-de-empleo-beerbox
-  description:
-    es: "En BeerBox encontrarás la mejor selección de cervezas del mundo."
-    ca: "A BeerBox trobaràs la millor selecció de cervesses artesanals del món."
-    en: "At BeerBox you'll find the best selection of beers in the world."
-  slug: beerbox
--
   name: CatalogPlayer
   url: http://www.catalogplayer.com
   description:
