@@ -731,3 +731,11 @@
     ca: "Plataforma de Gestió d'APIs: Gestiona, Distribueix i Monetitza la API."
     en: "API Management Platform: Package, Distribute and Monetize your API."
   slug: 3scale
+-
+  name: "Flowsme"
+  url: http://www.flowsme.net
+  description:
+    es: "Aplicación CRM y de facturación en la nube para pymes y autónomos."
+    ca: "Aplicació CRM i de facturació al núvol per pimes i autònoms."
+    en: "CRM and Invoicing online aplication for Small enterprises."
+  slug: flowsme
