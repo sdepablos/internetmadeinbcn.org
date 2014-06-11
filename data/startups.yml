@@ -681,3 +681,11 @@
     ca: "Aplicació CRM i de facturació al núvol per pimes i autònoms."
     en: "CRM and Invoicing online aplication for Small enterprises."
   slug: flowsme
+-
+  name: "TypeKids.com"
+  url: http://www.typekids.com
+  description:
+    es: "Curso de mecanografía para niños."
+    ca: "Curs online de mecanografía per a nens."
+    en: "Touch typing course for kids."
+  slug: typekids
