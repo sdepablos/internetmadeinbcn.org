@@ -689,3 +689,11 @@
     ca: "Curs online de mecanografía per a nens."
     en: "Touch typing course for kids."
   slug: typekids
+-
+  name: "nubersia"
+  url: http://www.nubersia.com
+  description:
+    es: "Proveedor de servicios avanzados de tecnología."
+    ca: "Proveïdor de Serveis Avançats de Tecnologia."
+    en: "Advanced Technology Services Provider."
+  slug: nubersia
