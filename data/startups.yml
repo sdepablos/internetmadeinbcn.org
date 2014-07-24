@@ -558,13 +558,13 @@
     en: "Social network promoting social dining events to meet new people"
   slug: socialeaters
 -
-  name: FXstreet.com
+  name: FXstreet
   url: http://www.fxstreet.com
   jobs: http://about.fxstreet.com/jobs/
   description:
-    es: "FXstreet.com es la web de referencia sobre el mercado de divisas."
-    ca: "FXstreet.com es la web de referència  sobre el mercat de divises."
-    en: "FXstreet.com is the site of reference for the forex eschange market."
+    es: "FXstreet es la web de referencia sobre el mercado de divisas."
+    ca: "FXstreet es la web de referència  sobre el mercat de divises."
+    en: "FXStreet is the site of reference for the Forex exchange market."
   slug: fxstreet
 -
   name: "Quedamus"
@@ -697,3 +697,12 @@
     ca: "Proveïdor de Serveis Avançats de Tecnologia."
     en: "Advanced Technology Services Provider."
   slug: nubersia
+-
+  name: "Tripobox"
+  url: http://www.tripobox.com
+  jobs: https://tripobox.com/jobs
+  description:
+    es: "Viajes en grupo fáciles"
+    ca: "Viatges en grup fàcils."
+    en: "Group trips made easy"
+  slug: tripobox
