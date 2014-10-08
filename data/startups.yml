@@ -722,3 +722,27 @@
     ca: "Comparador d'apartaments turístics."
     en: "Vacation rental search engine."
   slug: apartum
+-
+  name: "Worldcoo"
+  url: http://www.worldcoo.com
+  description:
+    es: "Unimos ecommerce y ONG para financiar proyectos de alto impacto social."
+    ca: "Unim ecommerce i ONGs per finançar projectes d'alt impacte social."
+    en: "We bring together ecommerce & NGO to fund high social impact projects."
+  slug: worldcoo
+-
+  name: "APItools"
+  url: http://www.apitools.com
+  description:
+    es: "API Zen para desarrolladores de software y devops."
+    ca: "API Zen per a desenvolupadors de programari i devops."
+    en: "API Zen for App Developers and DevOps."
+  slug: apitools
+-
+  name: "SalesPoint"
+  url: http://www.apitools.com
+  description:
+    es: "Es el CRM Móvil diseñado para los comerciales fuera de la oficina."
+    ca: " Salespoint Mobile CRM és per a comercials fora de l’oficina."
+    en: "Salespoint the Mobile CRM designed for Salesreps working on the road."
+  slug: salespoint
