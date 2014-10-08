@@ -702,7 +702,23 @@
   url: http://www.tripobox.com
   jobs: https://tripobox.com/jobs
   description:
-    es: "Viajes en grupo fáciles"
+    es: "Viajes en grupo fáciles."
     ca: "Viatges en grup fàcils."
-    en: "Group trips made easy"
+    en: "Group trips made easy."
   slug: tripobox
+-
+  name: "GetYourHero"
+  url: http://www.getyourhero.com
+  description:
+    es: "Facilitamos legalmente la contratación online de servicios de limpieza."
+    ca: "Facilitem la contratació online de serveis de neteja totalment legal."
+    en: "We intermediate legal cleaning services online."
+  slug: getyourhero
+-
+  name: "Apartum"
+  url: http://www.apartum.com
+  description:
+    es: "Comparador de apartamentos turísticos."
+    ca: "Comparador d'apartaments turístics."
+    en: "Vacation rental search engine."
+  slug: apartum
