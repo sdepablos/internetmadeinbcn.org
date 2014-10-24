@@ -743,6 +743,15 @@
   url: http://www.apitools.com
   description:
     es: "Es el CRM Móvil diseñado para los comerciales fuera de la oficina."
-    ca: " Salespoint Mobile CRM és per a comercials fora de l’oficina."
+    ca: "Salespoint Mobile CRM és per a comercials fora de l’oficina."
     en: "Salespoint the Mobile CRM designed for Salesreps working on the road."
   slug: salespoint
+-
+  name: "Cronnection"
+  url: http://cronnection.com
+  jobs: http://jobs.cronnection.com
+  description:
+    es: "Mercado entre particulares de bienes y servicios con monedas sociales."
+    ca: "Mercat entre particulars de bens i serveis amb monedes socials."
+    en: "Peer to peer goods and services marketplace using virtual currency."
+  slug: cronnection
