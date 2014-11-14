@@ -755,3 +755,11 @@
     ca: "Mercat entre particulars de bens i serveis amb monedes socials."
     en: "Peer to peer goods and services marketplace using virtual currency."
   slug: cronnection
+-
+  name: "Dineyo"
+  url: http://www.dineyo.com
+  description:
+    es: "Gana dinero con tus compras habituales, en tus tiendas de siempre."
+    ca: "Guanya diners amb les teves compres habituals a les botigues de sempre."
+    en: "Earn money with your everyday purchases to stores."
+  slug: dineyo
