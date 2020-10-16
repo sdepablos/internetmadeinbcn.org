@@ -8,43 +8,33 @@
   slug: ulabox
 -
   name: Trovit
-  url: http://www.trovit.com
-  jobs: http://about.trovit.es/jobs/
+  url: https://www.trovit.com
+  jobs: https://about.trovit.es/jobs/
   description:
     es: "el buscador de anuncios clasificados de empleo, pisos, coches, …"
     ca: "el cercador d'anuncis classificats de feina, pisos, cotxes, …"
     en: "the search engine for classifieds: homes, cars, jobs, and more"
   slug: trovit
 -
-  name: Offerum
-  url: http://www.offerum.com
-  jobs: http://empleo.offerum.com/
+  name: Lodgi
+  url: https://lodgi.co
   description:
-    es: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
-    ca: "Ofertes i dtes. en bellesa, restaurants, oci, viatges i escapades"
-    en: "Daily deals and discounts in beauty, restaurants, entertainment and travel"
-  slug: offerum
+    es: "La suscripción de muebles que se adapta a ti. Alquila muebles y decoración de alta calidad."
+    ca: "La subscripció de mobles que s'adapta a tu. Lloga mobles i decoració d'alta qualitat."
+    en: "The furniture subscription that adapts to you. Rent high-quality furniture and decor."
+  slug: lodgi
 -
   name: Softonic
-  url: http://www.softonic.com
-  jobs: http://softonic.asp.infojobs.net/home/index.xhtml
+  url: https://www.softonic.com
+  jobs: https://softonic.asp.infojobs.net/home/index.xhtml
   description:
     es: "Todos los programas a un solo clic"
     ca: "Tots els programes a un sol clic"
     en: "All software, one click away"
   slug: softonic
 -
-  name: Letsbonus
-  url: http://www.letsbonus.com
-  jobs: http://es.letsbonus.com/work-with-us
-  description:
-    es: "Ofertas y dtos. en belleza, restaurantes, ocio, viages y escapadas"
-    ca: "Ofertes i dtes. en bellesa, restaurants, oci, viatges i escapades"
-    en: "Daily deals and discounts in beauty, restaurants, entertainment and travel"
-  slug: letsbonus
--
   name: Uncomo
-  url: http://www.uncomo.com
+  url: https://www.uncomo.com
   description:
     es: "Soluciones prácticas a problemas cotidianos. El how-to español"
     ca: "Solucions pràctiques a problemes quotidians. El how-to espanyol"
@@ -52,8 +42,8 @@
   slug: uncomo
 -
   name: SocialPoint
-  url: http://www.socialpoint.es
-  jobs: http://www.socialpoint.es/jobs/
+  url: https://www.socialpoint.es
+  jobs: https://www.socialpoint.es/jobs/
   description:
     es: "Los mejores juegos sociales para Facebook y móviles"
     ca: "Els millors jocs socials per a Facebook i mòbils"
@@ -61,8 +51,8 @@
   slug: socialpoint
 -
   name: Itnig
-  url: http://itnig.net/
-  jobs: http://itnig.net/en/jobs
+  url: https://itnig.net/
+  jobs: https://itnig.net/en/jobs
   description:
     es: "Aceleradora de startups de internet"
     ca: "Acceleradora de startups d'internet"
@@ -70,7 +60,7 @@
   slug: itnig
 -
   name: Camaloon
-  url:  http://camaloon.com/
+  url:  https://camaloon.com/
   description:
     es: "Tienda online de productos personalizados"
     ca: "Botiga online de productes personalitzats"
@@ -79,24 +69,16 @@
 
 -
   name: Social Car
-  url: http://www.socialcar.com
+  url: https://www.socialcar.com
   description:
     es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
     ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
     en: "Car rentals among individuals. Share a car with your neighbour."
   slug: socialcar
 -
-  name: NiceTales
-  url: http://www.nicetales.com
-  description:
-    es: "Aplicación de cuentos infantiles para iPad junto con plataforma web"
-    ca: "Aplicació de contes infantils per a iPad juntament amb plataforma web"
-    en: "Childrens' stories iPad application and web platform"
-  slug: nicetales
--
   name: Wuaki.tv
-  url: http://www.wuaki.tv
-  jobs: http://jobs.wuaki.tv
+  url: https://www.wuaki.tv
+  jobs: https://jobs.wuaki.tv
   description:
     es: "Videoclub online con las mejores películas y las mejores series de TV"
     ca: "Videoclub online amb les millors pel·lícules i les millors sèries de TV"
@@ -104,40 +86,16 @@
   slug: wuakitv
 -
   name: Easypromos
-  url: http://www.easypromosapp.com
+  url: https://www.easypromosapp.com
   description:
     es: "Crea tus propias promociones y concursos en Facebook"
     ca: "Crea les teves promocions i concursos a Facebook"
     en: "Create your own Facebook promotions and competitions"
   slug: easypromos
 -
-  name: Ipsojobs
-  url: http://www.ipsojobs.com
-  description:
-    es: "La manera más rápida y fácil de encontrar trabajo o cubrir una vacante"
-    ca: "La manera més ràpida i fàcil de trobar feina o cobrir una vacant"
-    en: "The quickest, easiest way to find a job or fill an opening"
-  slug: ipsojobs
--
-  name: Zyncro
-  url: http://www.zyncro.com
-  description:
-    es: "Zyncro es tu Red Social Corporativa"
-    ca: "Zyncro es la teva Xarxa Social Corporativa"
-    en: "Zyncro is your Corporate Social Network"
-  slug: zyncro
--
-  name: TuManitas
-  url: http://www.tumanitas.com
-  description:
-    es: "Presupuesto para tu obra, reforma de vivienda o reparación"
-    ca: "Pressupost per la teva obra, reforma d'habitatge o reparació"
-    en: "Get a budget for your construction project, house remodel or repair"
-  slug: tumanitas
--
   name: Akamon Entertainment Ltd
-  jobs: http://akamon.com/jobs/job-offers/
-  url: http://akamon.com
+  jobs: https://akamon.com/jobs/job-offers/
+  url: https://akamon.com
   description:
     es: "Juegos sociales tradicionales online con portales como Mundijuegos.com"
     ca: "Jocs socials tradicional online amb portals com Mundijuegos.com"
@@ -145,8 +103,8 @@
   slug: akamon
 -
   name: Aladinia
-  url: http://www.aladinia.com
-  jobs: http://www.aladinia.com/trabajar-aladinia/
+  url: https://www.aladinia.com
+  jobs: https://www.aladinia.com/trabajar-aladinia/
   description:
     es: "Regalos experiencia online"
     ca: "Regals experiència online"
@@ -154,49 +112,25 @@
   slug: aladinia
 -
   name: Atrápalo
-  url: http://www.atrapalo.com
-  jobs: http://atrapalo.cvtools.com/jefam/trabajar-en-atrapalo/es/microsite-1024
+  url: https://www.atrapalo.com
+  jobs: https://atrapalo.cvtools.com/jefam/trabajar-en-atrapalo/es/microsite-1024
   description:
     es: "Entradas, restaurantes, actividades, vuelos, hoteles, viajes, cruceros"
     ca: "Entrades, restaurants, activitats, vols, hotels, viatjes, creuers"
     en: "Tickets, restaurants, activities, flights, hotels, trips, cruises"
   slug: atrapalo
 -
-  name: Social-Buy.com
-  url: http://www.social-buy.com
-  description:
-    es: "Soluciones de Social Commerce para rentabilizar tu activo digital"
-    ca: "Solucions de Social Commerce per rendibilitzar els teus actiu digital"
-    en: "Social Commerce solucions to capitalize on your digital actives"
-  slug: socialbuy
--
   name: Una Boda Original
-  url: http://www.unabodaoriginal.es
+  url: https://www.unabodaoriginal.es
   description:
     es: "Tienda online de productos originales para el día de tu boda"
     ca: "Botiga online de productes originals pel dia del teu casament"
     en: "Online store selling unique products for your wedding"
   slug: unabodaoriginal
 -
-  name: Overlapps
-  url: http://www.overlapps.com
-  description:
-    es: "Descubre las mejores aplicaciones de la forma más simple y fascinante."
-    ca: "Descobreix les millors aplicacions de la forma més simple i fascinant."
-    en: "Discover the best applications in a simple and fascinating way."
-  slug: overlapps
--
-  name: Ducksboard
-  url: http://www.ducksboard.com
-  description:
-    es: "Visualiza tus métricas de negocio actualizadas en tiempo real."
-    ca: "Visualitza les teves mètriques de negoci actualitzades en temps real."
-    en: "Visualize your business metrics, updated in real time."
-  slug: ducksboard
--
   name: EscapadaRural.com
-  url: http://www.escapadarural.com
-  jobs: http://www.escapadarural.com/empleo
+  url: https://www.escapadarural.com
+  jobs: https://www.escapadarural.com/empleo
   description:
     es: "Portal de turismo rural con más de 12.000 alojamientos registrados"
     ca: "Portal de turisme rural amb més de 12.000 allotjaments registrats"
@@ -204,73 +138,40 @@
   slug: escapadarural
 -
   name: Doctoralia
-  url: http://www.doctoralia.com
-  jobs: http://www.doctoralia.com/jobs.aspx
+  url: https://www.doctoralia.com
+  jobs: https://www.doctoralia.com/jobs.aspx
   description:
     es: "The global platform for doctor's appointment"
     ca: "The global platform for doctor's appointment"
     en: "The global platform for doctors' appointments"
   slug: doctoralia
 -
-  name: ADmira
-  url: http://admira.co
-  jobs: http://admira.co/ES/empleo/
-  description:
-    es: "Software para la gestión/emisión de contenidos para Digital Signage"
-    ca: "Software per a la gestió/emissió de continguts per Digital Signage"
-    en: "Software for the management/broadcasting of content via Digital Signage"
-  slug: admira
--
   name: Captio
-  url: http://www.captio.net
+  url: https://www.captio.net
   description:
     es: "Captura tickets de compra con tu móvil y genera informes de gastos"
     ca: "Captura tickets de compra amb el teu mòbil i genera informes de despeses"
     en: "Capture receipts with your phone and generate expense reports"
   slug: captio
 -
-  name: Food2u
-  url: http://www.food2u.es
-  description:
-    es: "Food2u es la app para pedir comida a domicilio sin necesidad de llamar"
-    ca: "Food2u es la app para demanar menjar a domicili sense necessitat de trucar"
-    en: "Food2u is the app to order take-out without having to make a phone call"
-  slug: food2u
--
   name: JobisJob
-  url: http://www.jobisjob.co.uk
+  url: https://www.jobisjob.co.uk
   description:
     es: "Agregador de empleo en 22 países - TOP10 de portales de empleo en UK"
     ca: "Agregador d'ocupació en 22 països - TOP10 de portals d'ocupació a UK"
     en: "Job aggregator in 22 countries - TOP10 job portals in the UK"
   slug: jobisjob
 -
-  name: Sibarit.us
-  url: http://www.sibarit.us
-  description:
-    es: "Club privado de experiencias y productos gastronómicos"
-    ca: "Club privat d'experiències i productes gastronòmics"
-    en: "Private club, offering experiences and gourmet products"
-  slug: sibaritus
--
   name: ByHours.com
-  url: http://www.byhours.com
+  url: https://www.byhours.com
   description:
     es: "La primera web de reserva de habitaciones de hotel por packs de horas"
     ca: "La primera web de reserva d'habitacions d'hotel per packs d'hores"
     en: "The first site that allows you to rent hotel rooms by the hour"
   slug: byhours
 -
-  name: nubelo
-  url: http://www.nubelo.com
-  description:
-    es: "Contrata online. Trabaja online. Plataforma líder de teletrabajo"
-    ca: "Contracta en línia. Treballa en línia. Plataforma líder de teletreball"
-    en: "Hire online. Work online. Leading teleworking platform"
-  slug: nubelo
--
   name: paraBebes.com
-  url: http://www.parabebes.com
+  url: https://www.parabebes.com
   description:
     es: "Comparte la experiencia de ser padres"
     ca: "Comparteix l'experiència de ser pares"
@@ -278,104 +179,40 @@
   slug: parabebes
 -
   name: Miscota
-  url: http://www.miscota.es
+  url: https://www.miscota.es
   description:
     es: "Tienda online dedicada a la venta de productos para mascotas"
     ca: "Botiga online dedicada a la venda de productes per a mascotes"
     en: "Online pet product store"
   slug: miscota
 -
-  name: Ruraldir
-  url: http://www.ruraldir.es
-  description:
-    es: "Tu escapada rural a un sólo click."
-    ca: "La teva escapada rural a un sol clic."
-    en: "Your rural escape, just one click away."
-  slug: ruraldir
--
   name: filmin
-  url: http://www.filmin.com
+  url: https://www.filmin.com
   description:
     es: "Portal de cine online"
     ca: "Portal de cinema online"
     en: "Online movie portal"
   slug: filmin
 -
-  name: LaComunity
-  url: http://www.lacomunity.com
-  description:
-    es: "El primer club de alquiler de pisos. Descuentos en pisos de alquiler."
-    ca: "El primer club de lloguer de pisos. Descomptes en pisos de lloguer."
-    en: "The first apartment rental club. Discounted rental apartments."
-  slug: lacomunity
--
-  name: Surfpricer
-  url: http://www.surfpricer.com
-  description:
-    es: "La aplicación móvil para buscar los mejores precios y ahorrar comprando"
-    ca: "L’aplicació mòbil per cercar els millors preus i estalviar comprant"
-    en: "The mobile app to find the best prices and save money when shopping"
-  slug: surfpricer
--
   name: SEOCOM.es
-  url: http://www.seocom.es
+  url: https://www.seocom.es
   description:
     es: "Agencia de Marketing On-line especializada en proyectos SEO"
     ca: "Agència de Màrketing On-line especialitzada en projectes SEO"
     en: "Online marketing agency, specialized in SEO projects"
   slug: seocom
 -
-  name: VipGourmet.com
-  url: http://www.VipGourmet.com
-  description:
-    es: "Guia de Restaurantes"
-    ca: "Guia de Restaurants"
-    en: "Restaurant Guide"
-  slug: vipgourmet
--
-  name: Connecting The Dots
-  url: http://connectingthedots.es
-  description:
-    es: "Desarrollo de comercio electrónico a éxito: no vendes, no ganamos."
-    ca: "Desenvolupament de comerç electrònic a èxit: no vens, no guanyem."
-    en: "E-commerce development with a focus on success: if you don't sell, we don't make money."
-  slug: connectingthedots
--
-  name: Onebox Ticket Management
-  url: http://www.oneboxtm.com
-  description:
-    es: "El primer sistema de distribución global de entradas (GTDS)"
-    ca: "El primer sistema de distribució global d'entrades (GTDS)"
-    en: "The first ticket distribution system (GTDS)"
-  slug: onebox
--
-  name: Sportivic
-  url: http://www.sportivic.es
-  description:
-    es: "Comprar material deportivo online en la tienda para todos los deportes"
-    ca: "Comprar material esportiu online a la botiga per a tots els esports"
-    en: "Buy sports equipment and recommendations to practice any sport"
-  slug: sportivic
--
   name: Uvinum
-  url: http://www.uvinum.es
+  url: https://www.uvinum.es
   description:
     es: "Comprar vino online y recomendaciones de venta de vinos"
     ca: "Comprar vi online i recomanacions en venda de vins"
     en: "Buy wine online and wine recommendations at the best price"
   slug: uvinum
 -
-  name: uguard.me
-  url: http://www.uguard.me
-  description:
-    es: "Protege tu dispositivo móvil con estilo"
-    ca: "Protegeix el teu dispositiu mobil amb estil"
-    en: "Guard your mobile device in style"
-  slug: uguardme
--
   name: Tiching
-  url: http://www.tiching.com
-  jobs: http://www.tiching.com/about/job
+  url: https://www.tiching.com
+  jobs: https://www.tiching.com/about/job
   description:
     es: "Plataforma educativa integrada por un buscador y una red social"
     ca: "Plataforma educativa integrada per un cercador i una xarxa social"
@@ -383,66 +220,24 @@
   slug: tiching
 -
   name: Netquest
-  url: http://www.netquest.com
+  url: https://www.netquest.com
   description:
     es: "Paneles de consumidores online y software de encuestas online"
     ca: "Panels i software d'enquestes online per a l'investigador de mercats"
     en: "Online panels and survey software for the market researcher"
   slug: netquest
 -
-  name: eyeOS
-  url: http://www.eyeos.com
-  jobs: http://www.eyeos.com/about-us/career
-  description:
-    es: "eyeOS es el escritorio número 1 en la nube"
-    ca: "eyeOS és l’escriptori número 1 al núvol"
-    en: "eyeOS, the world’s #1 Cloud Desktop"
-  slug: eyeos
--
   name: Forcemanager
-  url: http://www.forcemanager.net
-  jobs: http://www.forcemanager.net/es/empresa.php
+  url: https://www.forcemanager.net
+  jobs: https://www.forcemanager.net/es/empresa.php
   description:
     es: "Aumenta la eficiencia comercial de tu fuerza de ventas"
     ca: "Augmenta l'eficiència comercial de la teva força de vendes"
     en: "Increase commercial efficiency of your sales force"
   slug: forcemanager
 -
-  name: Medtep
-  url: http://medtep.com
-  description:
-    es: "Medtep es la mejora de la comunicación doctor-paciente"
-    ca: "Medtep és la millora de la comunicació doctor-pacient"
-    en: "Medtep enhances global communication between doctors and patients"
-  slug: medtep
--
-  name: Knok
-  url: http://www.knok.com/
-  description:
-    es: "Intercambia tu casa con gente en la que puedes confiar"
-    ca: "Intercanvia casa teva amb gent en la que pots confiar"
-    en: "Swap your home with people you can trust"
-  slug: knok
--
-  name: Babibum
-  url: http://www.babibum.es/
-  description:
-    es: "Comprar material infantil y todo lo que bebés y mamás necesitan"
-    ca: "Comprar material infantil i tot el que nadons i mares necessiten"
-    en: "Buy children's stuff and everything that babies and moms need"
-  slug: babibum
--
-  name: Osclass
-  url: http://osclass.com/
-  jobs: http://jobs.osclass.com/
-  description:
-    es: "Recibe CV gratis y sin límites a tu tablón de anuncios personalizado!"
-    ca: "Rep CV gratis i sense límits al teu tauler d'anuncis personalitzat!"
-    en: "Receive CV for free and without limits to your personalized job board!"
-  slug: osclass
--
   name: Typeform
-  url: http://www.typeform.com/
+  url: https://www.typeform.com/
   description:
     es: "Responder preguntas online no tiene que ser aburrido."
     ca: "Respondre preguntes online no ha de ser avorrit."
@@ -450,7 +245,7 @@
   slug: typeform
 -
   name: Blueknow
-  url: http://www.blueknow.com/
+  url: https://www.blueknow.com/
   description:
     es: "Tecnología de personalización y recomendaciones para negocios online."
     ca: "Tecnología de personalització i recomanacions per negocis online."
@@ -458,100 +253,33 @@
   slug: blueknow
 -
   name: Privalia
-  url: http://es.privalia.com/
-  jobs: http://es.workwithus.privalia.com/
+  url: https://es.privalia.com/
+  jobs: https://es.workwithus.privalia.com/
   description:
     es: "Club privado de ventas online."
     ca: "Club privat de vendes online."
     en: "Online private sales club."
   slug: privalia
 -
-  name: Groupalia
-  url: http://es.groupalia.com/
-  jobs: http://es.groupalia.com/descuentos-barcelona/trabaja-con-nosotros
-  description:
-    es: "Los mejores descuentos y ofertas online en planes de ocio, viajes, …"
-    ca: "Els millors descomptes i ofertes online de plans d'oci, viatges, …"
-    en: "The best online discounts and deals on leisure, travel, …"
-  slug: groupalia
--
-  name: MyStarAutograph
-  url: http://mystarautograph.com
-  description:
-    es: "Fotografías con dedicatoria personalizada de tu estrella favorita."
-    ca: "Fotografies amb dedicatòria personalitzada de teu estrella preferida."
-    en: "Photos with your personal message in the celebrity own handwriting"
-  slug: mystarautograph
--
   name: InfoJobs
-  url: http://www.infojobs.net
-  jobs: http://nosotros.trabajo.infojobs.net/
+  url: https://www.infojobs.net
+  jobs: https://nosotros.trabajo.infojobs.net/
   description:
     es: "InfoJobs es la web de empleo líder, creada en 1998."
     ca: "InfoJobs es la web de treball líder, creada en 1998."
     en: "InfoJobs is the leading jobboard site, created in 1998."
   slug: infojobs
 -
-  name: Fancybox
-  url: http://www.fancybox.com
-  jobs: http://berepublic.es/newbeBlog/?p=15507
-  description:
-    es: "La mayor comunidad de belleza de América Latina."
-    ca: "La comunitat de bellesa més gran d'Amèrica Llatina."
-    en: "The biggest beauty community in Latin America."
-  slug: fancybox
--
-  name: CatalogPlayer
-  url: http://www.catalogplayer.com
-  description:
-    es: "Crea catálogos interactivos de productos en la nube, úsalos en tablet."
-    ca: "Crea catàlegs de productes interactius al nuvol, utilitza'ls al tablet."
-    en: "Create interactive catalogs of products in the cloud, use it on tablet."
-  slug: catalogplayer
--
-  name: MAGAZAPP
-  url: http://www.Magazapp.com
-  description:
-    es: "Imagina tu publicación como una app para tablets y smartphones."
-    ca: "Imagina la teva publicació com una app per a tablets i smartphones."
-    en: "Imagine your publication as an app for tablets and smartphones."
-  slug: magazapp
--
   name: Siquia
-  url: http://www.siquia.com
+  url: https://www.siquia.com
   description:
     es: "Plataforma de atención psicológica online."
     ca: "Plataforma d'atenció psicològica online."
     en: "Online platform to assist people with menthal dissorders."
   slug: siquia
 -
-  name: Listiamo
-  url: http://www.listiamo.com
-  description:
-    es: "La red social para crear, compartir, colaborar y comentar listas."
-    ca: "La xarxa social per crear, compartir, col·laborar i comentar llistes."
-    en: "The social network to create, share, collaborate and comment lists."
-  slug: listiamo
--
-  name: Sexmind
-  url: http://www.sexmind.com
-  description:
-    es: "Aprende sobre sexo de una manera más amena y conoce a gente igual a ti."
-    ca: "Apren sobre sexe d'una manera més amena i coneix a gent igual a tu."
-    en: "Learn about sex in a fun way, meet others with your sexual interests."
-  slug: sexmind
--
-  name: Friend2Friend
-  url: http://www.friend2friend.com
-  jobs: http://www.friend2friend.com/jobs
-  description:
-    es: "Plataforma de Social Media Marketing para marcas de gran consumo."
-    ca: "Plataforma de Social Media Marketing per a marques de gran consum."
-    en: "Social media marketing platform for large consumer brands"
-  slug: friend2friend
--
   name: Social Eaters
-  url: http://www.socialeaters.com
+  url: https://www.socialeaters.com
   description:
     es: "Red social que organiza eventos gastronómicos entre desconocidos."
     ca: "Xarxa social q organitza esdeveniments gastronòmics entre desconeguts."
@@ -559,25 +287,17 @@
   slug: socialeaters
 -
   name: FXstreet
-  url: http://www.fxstreet.com
-  jobs: http://about.fxstreet.com/jobs/
+  url: https://www.fxstreet.com
+  jobs: https://about.fxstreet.com/jobs/
   description:
     es: "FXstreet es la web de referencia sobre el mercado de divisas."
     ca: "FXstreet es la web de referència  sobre el mercat de divises."
     en: "FXStreet is the site of reference for the Forex exchange market."
   slug: fxstreet
 -
-  name: "Quedamus"
-  url: http://www.quedamus.com
-  description:
-    es: "Es una red social donde conocer gente interesante para tus negocios."
-    ca: "És una xarxa social on conèixer gent interessant pels teus negocis."
-    en: "Social network where you meet interesting people for your business."
-  slug: quedamus
--
   name: "Deporvillage"
-  url: http://www.deporvillage.com
-  jobs: http://www.deporvillage.com/trabaja-con-nosotros
+  url: https://www.deporvillage.com
+  jobs: https://www.deporvillage.com/trabaja-con-nosotros
   description:
     es: "Tienda online de ciclismo, running, natación y fitness."
     ca: "Botiga online de ciclisme, running, natació i fitness."
@@ -585,7 +305,7 @@
   slug: deporvillage
 -
   name: "Gomfy"
-  url: http://www.gomfy.com
+  url: https://www.gomfy.com
   description:
     es: "Mercado de Alojamiento para Estudiantes."
     ca: "Mercat d'allotjament per estudiants."
@@ -593,8 +313,8 @@
   slug: gomfy
 -
   name: "GetApp"
-  url: http://www.getapp.com
-  jobs: http://getapp.mytribehr.com/careers
+  url: https://www.getapp.com
+  jobs: https://getapp.mytribehr.com/careers
   description:
     es: "El mercado independiente # 1 proveedor de Cloud y SaaS negocio apps"
     ca: "El mercat independent # 1 proveïdor de Cloud i SaaS negoci aplicacions."
@@ -602,88 +322,32 @@
   slug: getapp
 -
   name: "Lodgify"
-  url: http://www.lodgify.com
+  url: https://www.lodgify.com
   description:
     es: "Lodgify desarrolla un software innovador para el alquiler vacacional."
     ca: "Lodgify desenvolupa un software innovador pel lloguer de vacances."
     en: "Lodgify develops innovative software for the vacation rental industry."
   slug: lodgify
 -
-  name: "Adverway"
-  url: http://www.adverway.com
-  description:
-    es: "Social media marketing mediante juegos publicitarios personalizables."
-    ca: "Social media marketing mitjançant jocs publicitaris personalitzables."
-    en: "Social media marketing through custom branded games."
-  slug: adverway
--
   name: "Quipu"
-  url: http://www.getquipu.com
+  url: https://www.getquipu.com
   description:
     es: "Quipu es un software de facturación online para freelances y empresas."
     ca: "Quipu és un software de facturació online per a freelances i empreses."
     en: "Quipu is an invoicing and financial management cloud-based software."
   slug: quipu
 -
-  name: "Playfulbet"
-  url: http://www.playfulbet.com
-  description:
-    es: "Playfulbet es un juego social de pronósticos deportivos gratuitos."
-    ca: "Playfulbet es un joc social de pronòstics esportius gratuits."
-    en: "Playfulbet is a free social game of sports predictions"
-  slug: playfulbet
--
-  name: "KiteBit"
-  url: http://kitebit.com
-  description:
-    es: "Vende directamente a tu audiencia."
-    ca: "Ven directament a la teva audiencia."
-    en: "Sell directly to your audience."
-  slug: kitebit
--
-  name: "Instaroom"
-  url: http://instaroom.co
-  description:
-    es: "Ofertas diarias para alquileres turísticos."
-    ca: "Ofertes diàries per lloguer turístic."
-    en: "Flash sales for vacation rentals"
-  slug: instaroom
--
-  name: "Babanjo"
-  url: http://babanjo.com
-  description:
-    es: "Una nueva forma de escuchar la radio online."
-    ca: "Una nova forma d'escoltar la ràdio online."
-    en: "A new way to listen online radio."
-  slug: babanjo
--
-  name: "Icebergs"
-  url: http://www.icebergs.com
-  description:
-    es: "Organización visual para creativos."
-    ca: "Organització visual per creatius."
-    en: "Visual organization for creatives."
-  slug: icebergs
--
   name: "3SCALE"
-  url: http://www.3scale.net
-  jobs: http://www.3scale.net/jobs/
+  url: https://www.3scale.net
+  jobs: https://www.3scale.net/jobs/
   description:
     es: "Plataforma de Gestión de APIs: Gestiona, Distribuye y Monetiza tu API."
     ca: "Plataforma de Gestió d'APIs: Gestiona, Distribueix i Monetitza la API."
     en: "API Management Platform: Package, Distribute and Monetize your API."
   slug: 3scale
 -
-  name: "Flowsme"
-  url: http://www.flowsme.net
-  description:
-    es: "Aplicación CRM y de facturación en la nube para pymes y autónomos."
-    ca: "Aplicació CRM i de facturació al núvol per pimes i autònoms."
-    en: "CRM and Invoicing online aplication for Small enterprises."
-  slug: flowsme
--
   name: "TypeKids.com"
-  url: http://www.typekids.com
+  url: https://www.typekids.com
   description:
     es: "Curso de mecanografía para niños."
     ca: "Curs online de mecanografía per a nens."
@@ -691,7 +355,7 @@
   slug: typekids
 -
   name: "nubersia"
-  url: http://www.nubersia.com
+  url: https://www.nubersia.com
   description:
     es: "Proveedor de servicios avanzados de tecnología."
     ca: "Proveïdor de Serveis Avançats de Tecnologia."
@@ -699,7 +363,7 @@
   slug: nubersia
 -
   name: "Tripobox"
-  url: http://www.tripobox.com
+  url: https://www.tripobox.com
   jobs: https://tripobox.com/jobs
   description:
     es: "Viajes en grupo fáciles."
@@ -708,7 +372,7 @@
   slug: tripobox
 -
   name: "GetYourHero"
-  url: http://www.getyourhero.com
+  url: https://www.getyourhero.com
   description:
     es: "Facilitamos legalmente la contratación online de servicios de limpieza."
     ca: "Facilitem la contratació online de serveis de neteja totalment legal."
@@ -716,7 +380,7 @@
   slug: getyourhero
 -
   name: "Apartum"
-  url: http://www.apartum.com
+  url: https://www.apartum.com
   description:
     es: "Comparador de apartamentos turísticos."
     ca: "Comparador d'apartaments turístics."
@@ -724,42 +388,10 @@
   slug: apartum
 -
   name: "Worldcoo"
-  url: http://www.worldcoo.com
+  url: https://www.worldcoo.com
   description:
     es: "Unimos ecommerce y ONG para financiar proyectos de alto impacto social."
     ca: "Unim ecommerce i ONGs per finançar projectes d'alt impacte social."
     en: "We bring together ecommerce & NGO to fund high social impact projects."
   slug: worldcoo
--
-  name: "APItools"
-  url: http://www.apitools.com
-  description:
-    es: "API Zen para desarrolladores de software y devops."
-    ca: "API Zen per a desenvolupadors de programari i devops."
-    en: "API Zen for App Developers and DevOps."
-  slug: apitools
--
-  name: "SalesPoint"
-  url: http://www.apitools.com
-  description:
-    es: "Es el CRM Móvil diseñado para los comerciales fuera de la oficina."
-    ca: "Salespoint Mobile CRM és per a comercials fora de l’oficina."
-    en: "Salespoint the Mobile CRM designed for Salesreps working on the road."
-  slug: salespoint
--
-  name: "Cronnection"
-  url: http://cronnection.com
-  jobs: http://jobs.cronnection.com
-  description:
-    es: "Mercado entre particulares de bienes y servicios con monedas sociales."
-    ca: "Mercat entre particulars de bens i serveis amb monedes socials."
-    en: "Peer to peer goods and services marketplace using virtual currency."
-  slug: cronnection
--
-  name: "Dineyo"
-  url: http://www.dineyo.com
-  description:
-    es: "Gana dinero con tus compras habituales, en tus tiendas de siempre."
-    ca: "Guanya diners amb les teves compres habituals a les botigues de sempre."
-    en: "Earn money with your everyday purchases to stores."
-  slug: dineyo
+
