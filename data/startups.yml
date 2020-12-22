@@ -2,9 +2,9 @@
   name: Ulabox
   url: https://www.ulabox.com
   description:
-    es: "El supermercado online con entrega en 24h"
-    ca: "El supermercat online amb lliurament en 24h"
-    en: "The online supermarket with deliveries within 24 hours"
+    es: "El supermercado online con entrega en 1 hora"
+    ca: "El supermercat online amb lliurament en 1 hora"
+    en: "The online supermarket with deliveriy in 1 hour"
   slug: ulabox
 -
   name: Trovit
