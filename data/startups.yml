@@ -16,6 +16,14 @@
     en: "the search engine for classifieds: homes, cars, jobs, and more"
   slug: trovit
 -
+  name: YABA
+  url: https://goyaba.co
+  description:
+    es: "En YABA compramos, financiamos y damos soporte al crecimiento de negocios basados en Amazon FBA."
+    ca: "A YABA comprem, financem i donem suport a el creixement de negocis basats en Amazon FBA."
+    en: "At YABA we buy, finance and support the growth of Amazon FBA based businesses."
+  slug: yaba
+-
   name: Lodgi
   url: https://lodgi.co
   description:
