@@ -74,24 +74,6 @@
     ca: "Botiga online de productes personalitzats"
     en: "The online store for personalized products"
   slug: camaloon
-
--
-  name: Social Car
-  url: https://www.socialcar.com
-  description:
-    es: "Alquiler de coches entre particulares. Haz carsharing con tu vecino."
-    ca: "Lloguer de cotxes entre particulars. Fes carsharing amb el teu veí."
-    en: "Car rentals among individuals. Share a car with your neighbour."
-  slug: socialcar
--
-  name: Wuaki.tv
-  url: https://www.wuaki.tv
-  jobs: https://jobs.wuaki.tv
-  description:
-    es: "Videoclub online con las mejores películas y las mejores series de TV"
-    ca: "Videoclub online amb les millors pel·lícules i les millors sèries de TV"
-    en: "Online video store with the best movies and TV series"
-  slug: wuakitv
 -
   name: Easypromos
   url: https://www.easypromosapp.com
@@ -100,15 +82,6 @@
     ca: "Crea les teves promocions i concursos a Facebook"
     en: "Create your own Facebook promotions and competitions"
   slug: easypromos
--
-  name: Akamon Entertainment Ltd
-  jobs: https://akamon.com/jobs/job-offers/
-  url: https://akamon.com
-  description:
-    es: "Juegos sociales tradicionales online con portales como Mundijuegos.com"
-    ca: "Jocs socials tradicional online amb portals com Mundijuegos.com"
-    en: "Traditional online social gaming, with portals such as Mundijuegos.com"
-  slug: akamon
 -
   name: Aladinia
   url: https://www.aladinia.com
@@ -144,15 +117,6 @@
     ca: "Portal de turisme rural amb més de 12.000 allotjaments registrats"
     en: "Rural tourism portal, with over 12.000 registered accommodations"
   slug: escapadarural
--
-  name: Doctoralia
-  url: https://www.doctoralia.com
-  jobs: https://www.doctoralia.com/jobs.aspx
-  description:
-    es: "The global platform for doctor's appointment"
-    ca: "The global platform for doctor's appointment"
-    en: "The global platform for doctors' appointments"
-  slug: doctoralia
 -
   name: Captio
   url: https://www.captio.net
@@ -209,14 +173,6 @@
     ca: "Agència de Màrketing On-line especialitzada en projectes SEO"
     en: "Online marketing agency, specialized in SEO projects"
   slug: seocom
--
-  name: Uvinum
-  url: https://www.uvinum.es
-  description:
-    es: "Comprar vino online y recomendaciones de venta de vinos"
-    ca: "Comprar vi online i recomanacions en venda de vins"
-    en: "Buy wine online and wine recommendations at the best price"
-  slug: uvinum
 -
   name: Tiching
   url: https://www.tiching.com
@@ -285,14 +241,6 @@
     ca: "Plataforma d'atenció psicològica online."
     en: "Online platform to assist people with menthal dissorders."
   slug: siquia
--
-  name: Social Eaters
-  url: https://www.socialeaters.com
-  description:
-    es: "Red social que organiza eventos gastronómicos entre desconocidos."
-    ca: "Xarxa social q organitza esdeveniments gastronòmics entre desconeguts."
-    en: "Social network promoting social dining events to meet new people"
-  slug: socialeaters
 -
   name: FXstreet
   url: https://www.fxstreet.com
@@ -378,14 +326,6 @@
     ca: "Viatges en grup fàcils."
     en: "Group trips made easy."
   slug: tripobox
--
-  name: "GetYourHero"
-  url: https://www.getyourhero.com
-  description:
-    es: "Facilitamos legalmente la contratación online de servicios de limpieza."
-    ca: "Facilitem la contratació online de serveis de neteja totalment legal."
-    en: "We intermediate legal cleaning services online."
-  slug: getyourhero
 -
   name: "Apartum"
   url: https://www.apartum.com
